@@ -18,16 +18,16 @@ export default {
     'script-panel': {
         title: 'Uniscript',
         tooltip: {
-            'menu-button': '打开收起 Uniscript 面板',
+            'menu-button': 'Toggle Uniscript Panel',
         },
         panel: {
-            execute: '执行 Uniscript',
+            execute: 'Execute Script',
         },
     },
     uniscript: {
         message: {
-            success: '执行成功',
-            failed: '执行失败',
+            success: 'Execution Success',
+            failed: 'Execution Failed',
         },
     },
 };

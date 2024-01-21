@@ -16,12 +16,12 @@
 
 export default {
     AND: {
-        description: '如果其所有参数均为 TRUE，则返回 TRUE',
-        abstract: '如果其所有参数均为 TRUE，则返回 TRUE',
+        description: `Returns TRUE if all of its arguments are TRUE`,
+        abstract: `Returns TRUE if all of its arguments are TRUE`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/and-%E5%87%BD%E6%95%B0-5f19b2e8-e1df-4408-897a-ce285a19e9d9',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/and-function-5f19b2e8-e1df-4408-897a-ce285a19e9d9',
             },
         ],
         functionParameter: {
@@ -30,12 +30,12 @@ export default {
         },
     },
     BYCOL: {
-        description: '将 LAMBDA 应用于每个列并返回结果数组',
-        abstract: '将 LAMBDA 应用于每个列并返回结果数组',
+        description: `Applies a&nbsp;LAMBDA&nbsp;to each column and returns an array of the results`,
+        abstract: `Applies a&nbsp;LAMBDA&nbsp;to each column and returns an array of the results`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/bycol-%E5%87%BD%E6%95%B0-58463999-7de5-49ce-8f38-b7f7a2192bfb',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/bycol-function-58463999-7de5-49ce-8f38-b7f7a2192bfb',
             },
         ],
         functionParameter: {
@@ -44,12 +44,12 @@ export default {
         },
     },
     BYROW: {
-        description: '将 LAMBDA 应用于每一行并返回结果数组',
-        abstract: '将 LAMBDA 应用于每一行并返回结果数组',
+        description: `Applies a&nbsp;LAMBDA&nbsp;to each row and returns an array of the results`,
+        abstract: `Applies a&nbsp;LAMBDA&nbsp;to each row and returns an array of the results`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/byrow-%E5%87%BD%E6%95%B0-2e04c677-78c8-4e6b-8c10-a4602f2602bb',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/byrow-function-2e04c677-78c8-4e6b-8c10-a4602f2602bb',
             },
         ],
         functionParameter: {
@@ -58,12 +58,12 @@ export default {
         },
     },
     FALSE: {
-        description: '返回逻辑值 FALSE',
-        abstract: '返回逻辑值 FALSE',
+        description: `Returns the logical value FALSE`,
+        abstract: `Returns the logical value FALSE`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/false-%E5%87%BD%E6%95%B0-2d58dfa5-9c03-4259-bf8f-f0ae14346904',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/false-function-2d58dfa5-9c03-4259-bf8f-f0ae14346904',
             },
         ],
         functionParameter: {
@@ -72,12 +72,12 @@ export default {
         },
     },
     IF: {
-        description: '指定要执行的逻辑检测',
-        abstract: '指定要执行的逻辑检测',
+        description: `Specifies a logical test to perform`,
+        abstract: `Specifies a logical test to perform`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/if-%E5%87%BD%E6%95%B0-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/if-function-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2',
             },
         ],
         functionParameter: {
@@ -86,12 +86,12 @@ export default {
         },
     },
     IFERROR: {
-        description: '如果公式的计算结果错误，则返回您指定的值；否则返回公式的结果',
-        abstract: '如果公式的计算结果错误，则返回您指定的值；否则返回公式的结果',
+        description: `Returns a value you specify if a formula evaluates to an error; otherwise, returns the result of the formula`,
+        abstract: `Returns a value you specify if a formula evaluates to an error; otherwise, returns the result of the formula`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/iferror-%E5%87%BD%E6%95%B0-c526fd07-caeb-47b8-8bb6-63f3e417f611',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/iferror-function-c526fd07-caeb-47b8-8bb6-63f3e417f611',
             },
         ],
         functionParameter: {
@@ -100,12 +100,12 @@ export default {
         },
     },
     IFNA: {
-        description: '如果该表达式解析为 #N/A，则返回指定值；否则返回该表达式的结果',
-        abstract: '如果该表达式解析为 #N/A，则返回指定值；否则返回该表达式的结果',
+        description: `Returns the value you specify if the expression resolves to #N/A, otherwise returns the result of the expression`,
+        abstract: `Returns the value you specify if the expression resolves to #N/A, otherwise returns the result of the expression`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/ifna-%E5%87%BD%E6%95%B0-6626c961-a569-42fc-a49d-79b4951fd461',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/ifna-function-6626c961-a569-42fc-a49d-79b4951fd461',
             },
         ],
         functionParameter: {
@@ -114,12 +114,12 @@ export default {
         },
     },
     IFS: {
-        description: ' 检查是否满足一个或多个条件，且是否返回与第一个 TRUE 条件对应的值。',
-        abstract: ' 检查是否满足一个或多个条件，且是否返回与第一个 TRUE 条件对应的值。',
+        description: `Checks whether one or more conditions are met and returns a value that corresponds to the first TRUE condition.`,
+        abstract: `Checks whether one or more conditions are met and returns a value that corresponds to the first TRUE condition.`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/ifs-%E5%87%BD%E6%95%B0-36329a26-37b2-467c-972b-4a39bd951d45',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/ifs-function-36329a26-37b2-467c-972b-4a39bd951d45',
             },
         ],
         functionParameter: {
@@ -128,33 +128,32 @@ export default {
         },
     },
     LAMBDA: {
-        description:
-            '使用 LAMBDA 函数创建可重用的自定义函数，并使用易记名称调用它们。 新函数在整个工作簿中可用，其调用类似本机 Excel 函数。',
-        abstract: '创建自定义、可重用的函数，并通过友好名称调用它们',
+        description: `Use a LAMBDA function to create custom, reusable functions and call them by a friendly name. The new function is available throughout the workbook and called like native Excel functions.`,
+        abstract: `Create custom, reusable functions and call them by a friendly name`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/lambda-%E5%87%BD%E6%95%B0-bd212d27-1cd1-4321-a34a-ccbf254b8b67',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/lambda-function-bd212d27-1cd1-4321-a34a-ccbf254b8b67',
             },
         ],
         functionParameter: {
             parameter: {
-                name: '参数',
-                detail: '要传递给函数的值，例如单元格引用、字符串或数字。 最多可以输入 253 个参数。 此参数可选。',
+                name: 'parameter',
+                detail: 'A value that you want to pass to the function, such as a cell reference, string or number. You can enter up to 253 parameters. This argument is optional.',
             },
             calculation: {
-                name: '计算',
-                detail: '要作为函数结果执行并返回的公式。 其必须为最后一个参数，且必须返回结果。 此参数是必需项。',
+                name: 'calculation',
+                detail: 'The formula you want to execute and return as the result of the function. It must be the last argument and it must return a result. This argument is required.',
             },
         },
     },
     LET: {
-        description: '将名称分配给计算结果',
-        abstract: '将名称分配给计算结果',
+        description: `Assigns names to calculation results`,
+        abstract: `Assigns names to calculation results`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/let-%E5%87%BD%E6%95%B0-34842dd8-b92b-4d3f-b325-b8b8f9908999',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/let-function-34842dd8-b92b-4d3f-b325-b8b8f9908999',
             },
         ],
         functionParameter: {
@@ -163,30 +162,30 @@ export default {
         },
     },
     MAKEARRAY: {
-        description: '通过应用 LAMBDA 返回指定行和列大小的计算数组',
-        abstract: '通过应用 LAMBDA 返回指定行和列大小的计算数组',
+        description: `Returns a&nbsp;calculated array of a specified row and column size, by applying a&nbsp;LAMBDA`,
+        abstract: `Returns a&nbsp;calculated array of a specified row and column size, by applying a&nbsp;LAMBDA`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/makearray-%E5%87%BD%E6%95%B0-b80da5ad-b338-4149-a523-5b221da09097',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/makearray-function-b80da5ad-b338-4149-a523-5b221da09097',
             },
         ],
         functionParameter: {
-            number1: { name: 'rows', detail: '数组中的行数。 必须大于零' },
-            number2: { name: 'cols', detail: '数组中的列数。 必须大于零' },
+            number1: { name: 'rows', detail: 'The number of rows in the array. Must be greater than zero.' },
+            number2: { name: 'cols', detail: 'The number of columns in the array. Must be greater than zero.' },
             value3: {
                 name: 'lambda',
-                detail: '调用 LAMBDA 来创建数组。 LAMBDA 接受两个参数:row数组的行索引, col数组的列索引',
+                detail: ' A LAMBDA that is called to create the array. The LAMBDA takes two parameters: row (The row index of the array), col (The column index of the array).',
             },
         },
     },
     MAP: {
-        description: '返回一个数组，该数组通过应用 LAMBDA 创建新值，将数组 () 映射到新值',
-        abstract: '返回一个数组，该数组通过应用 LAMBDA 创建新值，将数组 () 映射到新值',
+        description: `Returns an array&nbsp;formed by mapping&nbsp;each value in the array(s) to a new value by applying a&nbsp;LAMBDA&nbsp;to create a new value`,
+        abstract: `Returns an array&nbsp;formed by mapping&nbsp;each value in the array(s) to a new value by applying a&nbsp;LAMBDA&nbsp;to create a new value`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/map-%E5%87%BD%E6%95%B0-48006093-f97c-47c1-bfcc-749263bb1f01',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/map-function-48006093-f97c-47c1-bfcc-749263bb1f01',
             },
         ],
         functionParameter: {
@@ -195,12 +194,12 @@ export default {
         },
     },
     NOT: {
-        description: '对其参数的逻辑求反',
-        abstract: '对其参数的逻辑求反',
+        description: `Reverses the logic of its argument`,
+        abstract: `Reverses the logic of its argument`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/not-%E5%87%BD%E6%95%B0-9cfc6011-a054-40c7-a140-cd4ba2d87d77',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/not-function-9cfc6011-a054-40c7-a140-cd4ba2d87d77',
             },
         ],
         functionParameter: {
@@ -209,12 +208,12 @@ export default {
         },
     },
     OR: {
-        description: '如果任一参数为 TRUE，则返回 TRUE',
-        abstract: '如果任一参数为 TRUE，则返回 TRUE',
+        description: `Returns TRUE if any argument is TRUE`,
+        abstract: `Returns TRUE if any argument is TRUE`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/or-%E5%87%BD%E6%95%B0-7d17ad14-8700-4281-b308-00b131e22af0',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/or-function-7d17ad14-8700-4281-b308-00b131e22af0',
             },
         ],
         functionParameter: {
@@ -223,12 +222,12 @@ export default {
         },
     },
     REDUCE: {
-        description: '通过将 LAMBDA 应用于每个值并返回累加器中的总值，将数组减少为累积值',
-        abstract: '通过将 LAMBDA 应用于每个值并返回累加器中的总值，将数组减少为累积值',
+        description: `Reduces an array to an accumulated value by applying a&nbsp;LAMBDA&nbsp;to each value and returning the total value in the accumulator`,
+        abstract: `Reduces an array to an accumulated value by applying a&nbsp;LAMBDA&nbsp;to each value and returning the total value in the accumulator`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/reduce-%E5%87%BD%E6%95%B0-42e39910-b345-45f3-84b8-0642b568b7cb',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/reduce-function-42e39910-b345-45f3-84b8-0642b568b7cb',
             },
         ],
         functionParameter: {
@@ -237,12 +236,12 @@ export default {
         },
     },
     SCAN: {
-        description: '通过将 LAMBDA 应用于每个值来扫描数组，并返回具有每个中间值的数组',
-        abstract: '通过将 LAMBDA 应用于每个值来扫描数组，并返回具有每个中间值的数组',
+        description: `Scans&nbsp;an array by applying a&nbsp;LAMBDA&nbsp;to each value and returns an array that has each intermediate value`,
+        abstract: `Scans&nbsp;an array by applying a&nbsp;LAMBDA&nbsp;to each value and returns an array that has each intermediate value`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/scan-%E5%87%BD%E6%95%B0-d58dfd11-9969-4439-b2dc-e7062724de29',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/scan-function-d58dfd11-9969-4439-b2dc-e7062724de29',
             },
         ],
         functionParameter: {
@@ -251,12 +250,12 @@ export default {
         },
     },
     SWITCH: {
-        description: '根据值列表计算表达式，并返回与第一个匹配值对应的结果。 如果不匹配，则可能返回可选默认值。',
-        abstract: '根据值列表计算表达式，并返回与第一个匹配值对应的结果。 如果不匹配，则可能返回可选默认值。',
+        description: `Evaluates an expression against a list of values and returns the result corresponding to the first matching value. If there is no match, an optional default value may be returned.`,
+        abstract: `Evaluates an expression against a list of values and returns the result corresponding to the first matching value. If there is no match, an optional default value may be returned.`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/switch-%E5%87%BD%E6%95%B0-47ab33c0-28ce-4530-8a45-d532ec4aa25e',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/switch-function-47ab33c0-28ce-4530-8a45-d532ec4aa25e',
             },
         ],
         functionParameter: {
@@ -265,12 +264,12 @@ export default {
         },
     },
     TRUE: {
-        description: '返回逻辑值 TRUE',
-        abstract: '返回逻辑值 TRUE',
+        description: `Returns the logical value TRUE`,
+        abstract: `Returns the logical value TRUE`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/true-%E5%87%BD%E6%95%B0-7652c6e3-8987-48d0-97cd-ef223246b3fb',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/true-function-7652c6e3-8987-48d0-97cd-ef223246b3fb',
             },
         ],
         functionParameter: {
@@ -279,12 +278,12 @@ export default {
         },
     },
     XOR: {
-        description: '返回所有参数的逻辑“异或”值',
-        abstract: '返回所有参数的逻辑“异或”值',
+        description: `Returns a logical exclusive OR of all arguments`,
+        abstract: `Returns a logical exclusive OR of all arguments`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/xor-%E5%87%BD%E6%95%B0-1548d4c2-5e47-4f77-9a92-0533bba14f37',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/xor-function-1548d4c2-5e47-4f77-9a92-0533bba14f37',
             },
         ],
         functionParameter: {

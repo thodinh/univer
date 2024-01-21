@@ -16,36 +16,44 @@
 
 export default {
     ADDRESS: {
-        description:
-            '根据指定行号和列号获得工作表中的某个单元格的地址。 例如，ADDRESS(2,3) 返回 $C$2。 再例如，ADDRESS(77,300) 返回 $KN$77。 可以使用其他函数（如 ROW 和 COLUMN 函数）为 ADDRESS 函数提供行号和列号参数。',
-        abstract: '以文本形式将引用值返回到工作表的单个单元格',
+        description: `Obtain the address of a cell in a worksheet, given specified row and column numbers. For example, ADDRESS(2,3) returns $C$2. As another example, ADDRESS(77,300) returns $KN$77. You can use other functions, such as the ROW and COLUMN functions, to provide the row and column number arguments for the ADDRESS function.`,
+        abstract: `Returns a reference as text to a single cell in a worksheet`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/address-%E5%87%BD%E6%95%B0-d0c26c0d-3991-446b-8de4-ab46431d4f89',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/address-function-d0c26c0d-3991-446b-8de4-ab46431d4f89',
             },
         ],
         functionParameter: {
-            row_num: { name: '行号', detail: '一个数值，指定要在单元格引用中使用的行号。' },
-            column_num: { name: '列号', detail: '一个数值，指定要在单元格引用中使用的列号。' },
-            abs_num: { name: '引用类型', detail: '一个数值，指定要返回的引用类型。' },
+            row_num: {
+                name: 'row number',
+                detail: 'A numeric value that specifies the row number to use in the cell reference.',
+            },
+            column_num: {
+                name: 'column number',
+                detail: 'A numeric value that specifies the column number to use in the cell reference.',
+            },
+            abs_num: {
+                name: 'type of reference',
+                detail: 'A numeric value that specifies the type of reference to return.',
+            },
             a1: {
-                name: '引用样式',
-                detail: '一个逻辑值，指定 A1 或 R1C1 引用样式。 在 A1 样式中，列和行将分别按字母和数字顺序添加标签。 在 R1C1 引用样式中，列和行均按数字顺序添加标签。 如果参数 A1 为 TRUE 或被省略，则 ADDRESS 函数返回 A1 样式引用；如果为 FALSE，则 ADDRESS 函数返回 R1C1 样式引用。',
+                name: 'style of reference',
+                detail: 'A logical value that specifies the A1 or R1C1 reference style. In A1 style, columns are labeled alphabetically, and rows are labeled numerically. In R1C1 reference style, both columns and rows are labeled numerically. If the A1 argument is TRUE or omitted, the ADDRESS function returns an A1-style reference; if FALSE, the ADDRESS function returns an R1C1-style reference.',
             },
             sheet_text: {
-                name: '工作表名称',
-                detail: '一个文本值，指定要用作外部引用的工作表的名称。 例如，公式=ADDRESS (1，1,,,"Sheet2") 返回 Sheet2！$A$1。 如果 sheet_text 参数，则不使用工作表名称，函数返回的地址引用当前工作表上的单元格。',
+                name: 'worksheet name',
+                detail: 'A text value that specifies the name of the worksheet to be used as the external reference. For example, the formula =ADDRESS(1,1,,,"Sheet2") returns Sheet2!$A$1. If the sheet_text argument is omitted, no sheet name is used, and the address returned by the function refers to a cell on the current sheet.',
             },
         },
     },
     AREAS: {
-        description: '返回引用中涉及的区域个数',
-        abstract: '返回引用中涉及的区域个数',
+        description: `Returns the number of areas in a reference`,
+        abstract: `Returns the number of areas in a reference`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/areas-%E5%87%BD%E6%95%B0-8392ba32-7a41-43b3-96b0-3695d2ec6152',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/areas-function-8392ba32-7a41-43b3-96b0-3695d2ec6152',
             },
         ],
         functionParameter: {
@@ -54,12 +62,12 @@ export default {
         },
     },
     CHOOSE: {
-        description: '从值的列表中选择值',
-        abstract: '从值的列表中选择值',
+        description: `Chooses a value from a list of values`,
+        abstract: `Chooses a value from a list of values`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/choose-%E5%87%BD%E6%95%B0-fc5c184f-cb62-4ec7-a46e-38653b98f5bc',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/choose-function-fc5c184f-cb62-4ec7-a46e-38653b98f5bc',
             },
         ],
         functionParameter: {
@@ -68,12 +76,12 @@ export default {
         },
     },
     CHOOSECOLS: {
-        description: '返回数组中的指定列',
-        abstract: '返回数组中的指定列',
+        description: `Returns the specified columns from an array`,
+        abstract: `Returns the specified columns from an array`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/choosecols-%E5%87%BD%E6%95%B0-bf117976-2722-4466-9b9a-1c01ed9aebff',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/choosecols-function-bf117976-2722-4466-9b9a-1c01ed9aebff',
             },
         ],
         functionParameter: {
@@ -82,12 +90,12 @@ export default {
         },
     },
     CHOOSEROWS: {
-        description: '返回数组中的指定行',
-        abstract: '返回数组中的指定行',
+        description: `Returns the specified rows from an array`,
+        abstract: `Returns the specified rows from an array`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/chooserows-%E5%87%BD%E6%95%B0-51ace882-9bab-4a44-9625-7274ef7507a3',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/chooserows-function-51ace882-9bab-4a44-9625-7274ef7507a3',
             },
         ],
         functionParameter: {
@@ -96,12 +104,12 @@ export default {
         },
     },
     COLUMN: {
-        description: '返回引用的列号',
-        abstract: '返回引用的列号',
+        description: `Returns the column number of a reference`,
+        abstract: `Returns the column number of a reference`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/column-%E5%87%BD%E6%95%B0-44e8c754-711c-4df3-9da4-47a55042554b',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/column-function-44e8c754-711c-4df3-9da4-47a55042554b',
             },
         ],
         functionParameter: {
@@ -110,12 +118,12 @@ export default {
         },
     },
     COLUMNS: {
-        description: '返回引用中包含的列数',
-        abstract: '返回引用中包含的列数',
+        description: `Returns the number of columns in a reference`,
+        abstract: `Returns the number of columns in a reference`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/columns-%E5%87%BD%E6%95%B0-4e8e7b4e-e603-43e8-b177-956088fa48ca',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/columns-function-4e8e7b4e-e603-43e8-b177-956088fa48ca',
             },
         ],
         functionParameter: {
@@ -124,12 +132,12 @@ export default {
         },
     },
     DROP: {
-        description: '从数组的开头或末尾排除指定数量的行或列',
-        abstract: '从数组的开头或末尾排除指定数量的行或列',
+        description: `Excludes a specified number of rows or columns from the start or end of an array`,
+        abstract: `Excludes a specified number of rows or columns from the start or end of an array`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/drop-%E5%87%BD%E6%95%B0-1cb4e151-9e17-4838-abe5-9ba48d8c6a34',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/drop-function-1cb4e151-9e17-4838-abe5-9ba48d8c6a34',
             },
         ],
         functionParameter: {
@@ -138,12 +146,12 @@ export default {
         },
     },
     EXPAND: {
-        description: '将数组展开或填充到指定的行和列维度',
-        abstract: '将数组展开或填充到指定的行和列维度',
+        description: `Expands or pads an array to specified row and column dimensions`,
+        abstract: `Expands or pads an array to specified row and column dimensions`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/expand-%E5%87%BD%E6%95%B0-7433fba5-4ad1-41da-a904-d5d95808bc38',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/expand-function-7433fba5-4ad1-41da-a904-d5d95808bc38',
             },
         ],
         functionParameter: {
@@ -152,12 +160,12 @@ export default {
         },
     },
     FILTER: {
-        description: 'FILTER 函数可以基于定义的条件筛选一系列数据。',
-        abstract: 'FILTER 函数可以基于定义的条件筛选一系列数据。',
+        description: `Filters a range of data based on criteria you define`,
+        abstract: `Filters a range of data based on criteria you define`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/filter-%E5%87%BD%E6%95%B0-f4f7cb66-82eb-4767-8f7c-4877ad80c759',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/filter-function-f4f7cb66-82eb-4767-8f7c-4877ad80c759',
             },
         ],
         functionParameter: {
@@ -166,12 +174,12 @@ export default {
         },
     },
     FORMULATEXT: {
-        description: '将给定引用的公式返回为文本',
-        abstract: '将给定引用的公式返回为文本',
+        description: `Returns the formula at the given reference as text`,
+        abstract: `Returns the formula at the given reference as text`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/formulatext-%E5%87%BD%E6%95%B0-0a786771-54fd-4ae2-96ee-09cda35439c8',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/formulatext-function-0a786771-54fd-4ae2-96ee-09cda35439c8',
             },
         ],
         functionParameter: {
@@ -180,12 +188,12 @@ export default {
         },
     },
     GETPIVOTDATA: {
-        description: '返回存储在数据透视表中的数据',
-        abstract: '返回存储在数据透视表中的数据',
+        description: `Returns data stored in a PivotTable report`,
+        abstract: `Returns data stored in a PivotTable report`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/getpivotdata-%E5%87%BD%E6%95%B0-8c083b99-a922-4ca0-af5e-3af55960761f',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/getpivotdata-function-8c083b99-a922-4ca0-af5e-3af55960761f',
             },
         ],
         functionParameter: {
@@ -194,12 +202,12 @@ export default {
         },
     },
     HLOOKUP: {
-        description: '查找数组的首行，并返回指定单元格的值',
-        abstract: '查找数组的首行，并返回指定单元格的值',
+        description: `Looks in the top row of an array and returns the value of the indicated cell`,
+        abstract: `Looks in the top row of an array and returns the value of the indicated cell`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/hlookup-%E5%87%BD%E6%95%B0-a3034eec-b719-4ba3-bb65-e1ad662ed95f',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/hlookup-function-a3034eec-b719-4ba3-bb65-e1ad662ed95f',
             },
         ],
         functionParameter: {
@@ -208,12 +216,12 @@ export default {
         },
     },
     HSTACK: {
-        description: '水平和顺序追加数组以返回较大的数组',
-        abstract: '水平和顺序追加数组以返回较大的数组',
+        description: `Appends arrays horizontally and&nbsp;in sequence to return a larger array`,
+        abstract: `Appends arrays horizontally and&nbsp;in sequence to return a larger array`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/hstack-%E5%87%BD%E6%95%B0-98c4ab76-10fe-4b4f-8d5f-af1c125fe8c2',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/hstack-function-98c4ab76-10fe-4b4f-8d5f-af1c125fe8c2',
             },
         ],
         functionParameter: {
@@ -222,12 +230,12 @@ export default {
         },
     },
     HYPERLINK: {
-        description: '创建快捷方式或跳转，以打开存储在网络服务器、Intranet 或 Internet 上的文档',
-        abstract: '创建快捷方式或跳转，以打开存储在网络服务器、Intranet 或 Internet 上的文档',
+        description: `Creates a shortcut or jump that opens a document stored on a network server, an intranet, or the Internet`,
+        abstract: `Creates a shortcut or jump that opens a document stored on a network server, an intranet, or the Internet`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/hyperlink-%E5%87%BD%E6%95%B0-333c7ce6-c5ae-4164-9c47-7de9b76f577f',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/hyperlink-function-333c7ce6-c5ae-4164-9c47-7de9b76f577f',
             },
         ],
         functionParameter: {
@@ -236,12 +244,12 @@ export default {
         },
     },
     IMAGE: {
-        description: '从给定源返回图像',
-        abstract: '从给定源返回图像',
+        description: `Returns an image from a given source`,
+        abstract: `Returns an image from a given source`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/image-%E5%87%BD%E6%95%B0-7e112975-5e52-4f2a-b9da-1d913d51f5d5',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/image-function-7e112975-5e52-4f2a-b9da-1d913d51f5d5',
             },
         ],
         functionParameter: {
@@ -250,12 +258,12 @@ export default {
         },
     },
     INDEX: {
-        description: '使用索引从引用或数组中选择值',
-        abstract: '使用索引从引用或数组中选择值',
+        description: `Uses an index to choose a value from a reference or array`,
+        abstract: `Uses an index to choose a value from a reference or array`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/index-%E5%87%BD%E6%95%B0-a5dcf0dd-996d-40a4-a822-b56b061328bd',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/index-function-a5dcf0dd-996d-40a4-a822-b56b061328bd',
             },
         ],
         functionParameter: {
@@ -264,12 +272,12 @@ export default {
         },
     },
     INDIRECT: {
-        description: '返回由文本值指定的引用',
-        abstract: '返回由文本值指定的引用',
+        description: `Returns a reference indicated by a text value`,
+        abstract: `Returns a reference indicated by a text value`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/indirect-%E5%87%BD%E6%95%B0-474b3a3a-8a26-4f44-b491-92b6306fa261',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/indirect-function-474b3a3a-8a26-4f44-b491-92b6306fa261',
             },
         ],
         functionParameter: {
@@ -278,12 +286,12 @@ export default {
         },
     },
     LOOKUP: {
-        description: '在向量或数组中查找值',
-        abstract: '在向量或数组中查找值',
+        description: `Looks up values in a vector or array`,
+        abstract: `Looks up values in a vector or array`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/lookup-%E5%87%BD%E6%95%B0-446d94af-663b-451d-8251-369d5e3864cb',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/lookup-function-446d94af-663b-451d-8251-369d5e3864cb',
             },
         ],
         functionParameter: {
@@ -292,12 +300,12 @@ export default {
         },
     },
     MATCH: {
-        description: '在引用或数组中查找值',
-        abstract: '在引用或数组中查找值',
+        description: `Looks up values in a reference or array`,
+        abstract: `Looks up values in a reference or array`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/match-%E5%87%BD%E6%95%B0-e8dffd45-c762-47d6-bf89-533f4a37673a',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/match-function-e8dffd45-c762-47d6-bf89-533f4a37673a',
             },
         ],
         functionParameter: {
@@ -306,12 +314,12 @@ export default {
         },
     },
     OFFSET: {
-        description: '从给定引用中返回引用偏移量',
-        abstract: '从给定引用中返回引用偏移量',
+        description: `Returns a reference offset from a given reference`,
+        abstract: `Returns a reference offset from a given reference`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/offset-%E5%87%BD%E6%95%B0-c8de19ae-dd79-4b9b-a14e-b4d906d11b66',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/offset-function-c8de19ae-dd79-4b9b-a14e-b4d906d11b66',
             },
         ],
         functionParameter: {
@@ -320,12 +328,12 @@ export default {
         },
     },
     ROW: {
-        description: '返回引用的行号',
-        abstract: '返回引用的行号',
+        description: `Returns the row number of a reference`,
+        abstract: `Returns the row number of a reference`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/row-%E5%87%BD%E6%95%B0-3a63b74a-c4d0-4093-b49a-e76eb49a6d8d',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/row-function-3a63b74a-c4d0-4093-b49a-e76eb49a6d8d',
             },
         ],
         functionParameter: {
@@ -334,12 +342,12 @@ export default {
         },
     },
     ROWS: {
-        description: '返回引用中的行数',
-        abstract: '返回引用中的行数',
+        description: `Returns the number of rows in a reference`,
+        abstract: `Returns the number of rows in a reference`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/rows-%E5%87%BD%E6%95%B0-b592593e-3fc2-47f2-bec1-bda493811597',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/rows-function-b592593e-3fc2-47f2-bec1-bda493811597',
             },
         ],
         functionParameter: {
@@ -348,12 +356,12 @@ export default {
         },
     },
     RTD: {
-        description: '从支持 COM 自动化的程序中检索实时数据',
-        abstract: '从支持 COM 自动化的程序中检索实时数据',
+        description: `Retrieves real-time data from a program that supports COM automation`,
+        abstract: `Retrieves real-time data from a program that supports COM automation`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/rtd-%E5%87%BD%E6%95%B0-e0cc001a-56f0-470a-9b19-9455dc0eb593',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/rtd-function-e0cc001a-56f0-470a-9b19-9455dc0eb593',
             },
         ],
         functionParameter: {
@@ -362,12 +370,12 @@ export default {
         },
     },
     SORT: {
-        description: '对区域或数组的内容进行排序',
-        abstract: '对区域或数组的内容进行排序',
+        description: `Sorts the contents of a range or array`,
+        abstract: `Sorts the contents of a range or array`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/sort-%E5%87%BD%E6%95%B0-22f63bd0-ccc8-492f-953d-c20e8e44b86c',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/sort-function-22f63bd0-ccc8-492f-953d-c20e8e44b86c',
             },
         ],
         functionParameter: {
@@ -376,12 +384,12 @@ export default {
         },
     },
     SORTBY: {
-        description: '根据相应区域或数组中的值对区域或数组的内容进行排序',
-        abstract: '根据相应区域或数组中的值对区域或数组的内容进行排序',
+        description: `Sorts the contents of a range or array based on the values in a corresponding range or array`,
+        abstract: `Sorts the contents of a range or array based on the values in a corresponding range or array`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/sortby-%E5%87%BD%E6%95%B0-cd2d7a62-1b93-435c-b561-d6a35134f28f',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/sortby-function-cd2d7a62-1b93-435c-b561-d6a35134f28f',
             },
         ],
         functionParameter: {
@@ -390,12 +398,12 @@ export default {
         },
     },
     TAKE: {
-        description: '从数组的开头或末尾返回指定数量的连续行或列',
-        abstract: '从数组的开头或末尾返回指定数量的连续行或列',
+        description: `Returns a specified number of contiguous rows or columns from the start or end of an array`,
+        abstract: `Returns a specified number of contiguous rows or columns from the start or end of an array`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/take-%E5%87%BD%E6%95%B0-25382ff1-5da1-4f78-ab43-f33bd2e4e003',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/take-function-25382ff1-5da1-4f78-ab43-f33bd2e4e003',
             },
         ],
         functionParameter: {
@@ -404,12 +412,12 @@ export default {
         },
     },
     TOCOL: {
-        description: '返回单个列中的数组',
-        abstract: '返回单个列中的数组',
+        description: `Returns the array in a single column`,
+        abstract: `Returns the array in a single column`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/tocol-%E5%87%BD%E6%95%B0-22839d9b-0b55-4fc1-b4e6-2761f8f122ed',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/tocol-function-22839d9b-0b55-4fc1-b4e6-2761f8f122ed',
             },
         ],
         functionParameter: {
@@ -418,12 +426,12 @@ export default {
         },
     },
     TOROW: {
-        description: '返回单个行中的数组',
-        abstract: '返回单个行中的数组',
+        description: `Returns the array in a single row`,
+        abstract: `Returns the array in a single row`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/torow-%E5%87%BD%E6%95%B0-b90d0964-a7d9-44b7-816b-ffa5c2fe2289',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/torow-function-b90d0964-a7d9-44b7-816b-ffa5c2fe2289',
             },
         ],
         functionParameter: {
@@ -432,12 +440,12 @@ export default {
         },
     },
     TRANSPOSE: {
-        description: '返回数组的转置',
-        abstract: '返回数组的转置',
+        description: `Returns the transpose of an array`,
+        abstract: `Returns the transpose of an array`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/transpose-%E5%87%BD%E6%95%B0-ed039415-ed8a-4a81-93e9-4b6dfac76027',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/transpose-function-ed039415-ed8a-4a81-93e9-4b6dfac76027',
             },
         ],
         functionParameter: {
@@ -446,12 +454,12 @@ export default {
         },
     },
     UNIQUE: {
-        description: '返回列表或区域的唯一值列表',
-        abstract: '返回列表或区域的唯一值列表',
+        description: `Returns a list of unique values in a list or range`,
+        abstract: `Returns a list of unique values in a list or range`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/unique-%E5%87%BD%E6%95%B0-c5ab87fd-30a3-4ce9-9d1a-40204fb85e1e',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/unique-function-c5ab87fd-30a3-4ce9-9d1a-40204fb85e1e',
             },
         ],
         functionParameter: {
@@ -460,41 +468,40 @@ export default {
         },
     },
     VLOOKUP: {
-        description:
-            '需要在表格或区域中按行查找内容时，请使用 VLOOKUP。 例如，按部件号查找汽车部件的价格，或根据员工 ID 查找员工姓名。',
-        abstract: '在数组第一列中查找，然后在行之间移动以返回单元格的值',
+        description: `Use VLOOKUP when you need to find things in a table or a range by row. For example, look up a price of an automotive part by the part number, or find an employee name based on their employee ID.`,
+        abstract: `Looks in the first column of an array and moves across the row to return the value of a cell`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/vlookup-%E5%87%BD%E6%95%B0-0bbc8083-26fe-4963-8ab8-93a18ad188a1',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/vlookup-function-0bbc8083-26fe-4963-8ab8-93a18ad188a1',
             },
         ],
         functionParameter: {
             lookupValue: {
                 name: 'lookup_value',
-                detail: '要查找的值。 要查找的值必须位于 table_array 参数中指定的单元格区域的第一列中。',
+                detail: 'The value you want to look up. The value you want to look up must be in the first column of the range of cells you specify in the table_array argument.',
             },
             tableArray: {
                 name: 'table_array',
-                detail: 'VLOOKUP 在其中搜索 lookup_value 和返回值的单元格区域。 可以使用命名区域或表，并且可以在参数中使用名称，而不是单元格引用。 ',
+                detail: 'The range of cells in which the VLOOKUP will search for the lookup_value and the return value. You can use a named range or a table, and you can use names in the argument instead of cell references. ',
             },
             colIndexNum: {
                 name: 'col_index_num',
-                detail: '其中包含返回值的单元格的编号（table_array 最左侧单元格为 1 开始编号）。',
+                detail: 'The column number (starting with 1 for the left-most column of table_array) that contains the return value.',
             },
             rangeLookup: {
                 name: 'range_lookup',
-                detail: '一个逻辑值，该值指定希望 VLOOKUP 查找近似匹配还是精确匹配：近似匹配 - 1/TRUE, 完全匹配 - 0/FALSE',
+                detail: 'A logical value that specifies whether you want VLOOKUP to find an approximate or an exact match: Approximate match - 1/TRUE, Exact match - 0/FALSE',
             },
         },
     },
     VSTACK: {
-        description: '按顺序垂直追加数组以返回更大的数组',
-        abstract: '按顺序垂直追加数组以返回更大的数组',
+        description: `Appends&nbsp;arrays vertically and in sequence to return a larger array`,
+        abstract: `Appends&nbsp;arrays vertically and in sequence to return a larger array`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/vstack-%E5%87%BD%E6%95%B0-a4b86897-be0f-48fc-adca-fcc10d795a9c',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/vstack-function-a4b86897-be0f-48fc-adca-fcc10d795a9c',
             },
         ],
         functionParameter: {
@@ -503,12 +510,12 @@ export default {
         },
     },
     WRAPCOLS: {
-        description: '在指定数量的元素之后按列包装提供的行或值列',
-        abstract: '在指定数量的元素之后按列包装提供的行或值列',
+        description: `Wraps the provided row or column of values by columns after a specified number of elements`,
+        abstract: `Wraps the provided row or column of values by columns after a specified number of elements`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/wrapcols-%E5%87%BD%E6%95%B0-d038b05a-57b7-4ee0-be94-ded0792511e2',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/wrapcols-function-d038b05a-57b7-4ee0-be94-ded0792511e2',
             },
         ],
         functionParameter: {
@@ -517,12 +524,12 @@ export default {
         },
     },
     WRAPROWS: {
-        description: '在指定数量的元素之后按行包装提供的行或值列',
-        abstract: '在指定数量的元素之后按行包装提供的行或值列',
+        description: `Wraps the provided row or column of values by rows after a specified number of elements`,
+        abstract: `Wraps the provided row or column of values by rows after a specified number of elements`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/wraprows-%E5%87%BD%E6%95%B0-796825f3-975a-4cee-9c84-1bbddf60ade0',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/wraprows-function-796825f3-975a-4cee-9c84-1bbddf60ade0',
             },
         ],
         functionParameter: {
@@ -531,14 +538,12 @@ export default {
         },
     },
     XLOOKUP: {
-        description:
-            '搜索区域或数组，并返回与之找到的第一个匹配项对应的项。 如果不存在匹配项，则 XLOOKUP 可返回最接近（近似值）的匹配项。&nbsp;',
-        abstract:
-            '搜索区域或数组，并返回与之找到的第一个匹配项对应的项。 如果不存在匹配项，则 XLOOKUP 可返回最接近（近似值）的匹配项。&nbsp;',
+        description: `Searches a range or an array, and returns&nbsp;an item&nbsp;corresponding&nbsp;to the&nbsp;first match it finds. If a match doesn't exist,&nbsp;then XLOOKUP can return the&nbsp;closest (approximate) match.&nbsp;`,
+        abstract: `Searches a range or an array, and returns&nbsp;an item&nbsp;corresponding&nbsp;to the&nbsp;first match it finds. If a match doesn't exist,&nbsp;then XLOOKUP can return the&nbsp;closest (approximate) match.&nbsp;`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/xlookup-%E5%87%BD%E6%95%B0-b7fd680e-6d10-43e6-84f9-88eae8bf5929',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/xlookup-function-b7fd680e-6d10-43e6-84f9-88eae8bf5929',
             },
         ],
         functionParameter: {
@@ -547,12 +552,12 @@ export default {
         },
     },
     XMATCH: {
-        description: '返回项目在数组或单元格区域中的相对位置。&nbsp;',
-        abstract: '返回项目在数组或单元格区域中的相对位置。&nbsp;',
+        description: `Returns the&nbsp;relative&nbsp;position of an item in an array or range of cells.&nbsp;`,
+        abstract: `Returns the&nbsp;relative&nbsp;position of an item in an array or range of cells.&nbsp;`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/xmatch-%E5%87%BD%E6%95%B0-d966da31-7a6b-4a13-a1c6-5a33ed6a0312',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/xmatch-function-d966da31-7a6b-4a13-a1c6-5a33ed6a0312',
             },
         ],
         functionParameter: {

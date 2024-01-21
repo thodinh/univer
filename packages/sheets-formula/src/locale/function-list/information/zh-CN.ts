@@ -16,12 +16,12 @@
 
 export default {
     CELL: {
-        description: '返回有关单元格格式、位置或内容的信息',
-        abstract: '返回有关单元格格式、位置或内容的信息',
+        description: `Returns information about the formatting, location, or contents of a cell`,
+        abstract: `Returns information about the formatting, location, or contents of a cell`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/cell-%E5%87%BD%E6%95%B0-51bd39a5-f338-4dbe-a33f-955d67c2b2cf',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/cell-function-51bd39a5-f338-4dbe-a33f-955d67c2b2cf',
             },
         ],
         functionParameter: {
@@ -30,12 +30,12 @@ export default {
         },
     },
     ERROR_TYPE: {
-        description: '返回对应于错误类型的数字',
-        abstract: '返回对应于错误类型的数字',
+        description: `Returns a number corresponding to an error type`,
+        abstract: `Returns a number corresponding to an error type`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/error-type-%E5%87%BD%E6%95%B0-10958677-7c8d-44f7-ae77-b9a9ee6eefaa',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/error-type-function-10958677-7c8d-44f7-ae77-b9a9ee6eefaa',
             },
         ],
         functionParameter: {
@@ -44,12 +44,12 @@ export default {
         },
     },
     INFO: {
-        description: '返回有关当前操作环境的信息',
-        abstract: '返回有关当前操作环境的信息',
+        description: `Returns information about the current operating environment`,
+        abstract: `Returns information about the current operating environment`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/info-%E5%87%BD%E6%95%B0-725f259a-0e4b-49b3-8b52-58815c69acae',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/info-function-725f259a-0e4b-49b3-8b52-58815c69acae',
             },
         ],
         functionParameter: {
@@ -58,12 +58,12 @@ export default {
         },
     },
     ISBLANK: {
-        description: '如果值为空，则返回 TRUE',
-        abstract: '如果值为空，则返回 TRUE',
+        description: `Returns TRUE if the value is blank`,
+        abstract: `Returns TRUE if the value is blank`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/is-%E5%87%BD%E6%95%B0-0f2d7971-6019-40a0-a171-f2d869135665',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/is-functions-0f2d7971-6019-40a0-a171-f2d869135665',
             },
         ],
         functionParameter: {
@@ -72,12 +72,12 @@ export default {
         },
     },
     ISERR: {
-        description: '如果值为除 #N/A 以外的任何错误值，则返回 TRUE',
-        abstract: '如果值为除 #N/A 以外的任何错误值，则返回 TRUE',
+        description: `Returns TRUE if the value is any error value except #N/A`,
+        abstract: `Returns TRUE if the value is any error value except #N/A`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/is-%E5%87%BD%E6%95%B0-0f2d7971-6019-40a0-a171-f2d869135665',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/is-functions-0f2d7971-6019-40a0-a171-f2d869135665',
             },
         ],
         functionParameter: {
@@ -86,12 +86,12 @@ export default {
         },
     },
     ISERROR: {
-        description: '如果值为任何错误值，则返回 TRUE',
-        abstract: '如果值为任何错误值，则返回 TRUE',
+        description: `Returns TRUE if the value is any error value`,
+        abstract: `Returns TRUE if the value is any error value`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/is-%E5%87%BD%E6%95%B0-0f2d7971-6019-40a0-a171-f2d869135665',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/is-functions-0f2d7971-6019-40a0-a171-f2d869135665',
             },
         ],
         functionParameter: {
@@ -100,12 +100,12 @@ export default {
         },
     },
     ISEVEN: {
-        description: '如果数字为偶数，则返回 TRUE',
-        abstract: '如果数字为偶数，则返回 TRUE',
+        description: `Returns TRUE if the number is even`,
+        abstract: `Returns TRUE if the number is even`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/iseven-%E5%87%BD%E6%95%B0-aa15929a-d77b-4fbb-92f4-2f479af55356',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/iseven-function-aa15929a-d77b-4fbb-92f4-2f479af55356',
             },
         ],
         functionParameter: {
@@ -114,12 +114,12 @@ export default {
         },
     },
     ISFORMULA: {
-        description: '如果有对包含公式的单元格的引用，则返回 TRUE',
-        abstract: '如果有对包含公式的单元格的引用，则返回 TRUE',
+        description: `Returns TRUE if there is a reference to a cell that contains a formula`,
+        abstract: `Returns TRUE if there is a reference to a cell that contains a formula`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/isformula-%E5%87%BD%E6%95%B0-e4d1355f-7121-4ef2-801e-3839bfd6b1e5',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/isformula-function-e4d1355f-7121-4ef2-801e-3839bfd6b1e5',
             },
         ],
         functionParameter: {
@@ -128,12 +128,12 @@ export default {
         },
     },
     ISLOGICAL: {
-        description: '如果值为逻辑值，则返回 TRUE',
-        abstract: '如果值为逻辑值，则返回 TRUE',
+        description: `Returns TRUE if the value is a logical value`,
+        abstract: `Returns TRUE if the value is a logical value`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/is-%E5%87%BD%E6%95%B0-0f2d7971-6019-40a0-a171-f2d869135665',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/is-functions-0f2d7971-6019-40a0-a171-f2d869135665',
             },
         ],
         functionParameter: {
@@ -142,12 +142,12 @@ export default {
         },
     },
     ISNA: {
-        description: '如果值为错误值 #N/A，则返回 TRUE',
-        abstract: '如果值为错误值 #N/A，则返回 TRUE',
+        description: `Returns TRUE if the value is the #N/A error value`,
+        abstract: `Returns TRUE if the value is the #N/A error value`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/is-%E5%87%BD%E6%95%B0-0f2d7971-6019-40a0-a171-f2d869135665',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/is-functions-0f2d7971-6019-40a0-a171-f2d869135665',
             },
         ],
         functionParameter: {
@@ -156,12 +156,12 @@ export default {
         },
     },
     ISNONTEXT: {
-        description: '如果值不是文本，则返回 TRUE',
-        abstract: '如果值不是文本，则返回 TRUE',
+        description: `Returns TRUE if the value is not text`,
+        abstract: `Returns TRUE if the value is not text`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/is-%E5%87%BD%E6%95%B0-0f2d7971-6019-40a0-a171-f2d869135665',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/is-functions-0f2d7971-6019-40a0-a171-f2d869135665',
             },
         ],
         functionParameter: {
@@ -170,12 +170,12 @@ export default {
         },
     },
     ISNUMBER: {
-        description: '如果值为数字，则返回 TRUE',
-        abstract: '如果值为数字，则返回 TRUE',
+        description: `Returns TRUE if the value is a number`,
+        abstract: `Returns TRUE if the value is a number`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/is-%E5%87%BD%E6%95%B0-0f2d7971-6019-40a0-a171-f2d869135665',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/is-functions-0f2d7971-6019-40a0-a171-f2d869135665',
             },
         ],
         functionParameter: {
@@ -184,12 +184,12 @@ export default {
         },
     },
     ISODD: {
-        description: '如果数字为奇数，则返回 TRUE',
-        abstract: '如果数字为奇数，则返回 TRUE',
+        description: `Returns TRUE if the number is odd`,
+        abstract: `Returns TRUE if the number is odd`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/is-%E5%87%BD%E6%95%B0-0f2d7971-6019-40a0-a171-f2d869135665',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/is-functions-0f2d7971-6019-40a0-a171-f2d869135665',
             },
         ],
         functionParameter: {
@@ -198,12 +198,12 @@ export default {
         },
     },
     ISOMITTED: {
-        description: '检查 LAMBDA 中的值是否缺失，并返回 TRUE 或 FALSE',
-        abstract: '检查 LAMBDA 中的值是否缺失，并返回 TRUE 或 FALSE',
+        description: `Checks whether the value in a&nbsp;LAMBDA&nbsp;is missing and returns TRUE or FALSE`,
+        abstract: `Checks whether the value in a&nbsp;LAMBDA&nbsp;is missing and returns TRUE or FALSE`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/isomitted-%E5%87%BD%E6%95%B0-831d6fbc-0f07-40c4-9c5b-9c73fd1d60c1',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/isomitted-function-831d6fbc-0f07-40c4-9c5b-9c73fd1d60c1',
             },
         ],
         functionParameter: {
@@ -212,12 +212,12 @@ export default {
         },
     },
     ISREF: {
-        description: '如果值为引用值，则返回 TRUE',
-        abstract: '如果值为引用值，则返回 TRUE',
+        description: `Returns TRUE if the value is a reference`,
+        abstract: `Returns TRUE if the value is a reference`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/is-%E5%87%BD%E6%95%B0-0f2d7971-6019-40a0-a171-f2d869135665',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/is-functions-0f2d7971-6019-40a0-a171-f2d869135665',
             },
         ],
         functionParameter: {
@@ -226,12 +226,12 @@ export default {
         },
     },
     ISTEXT: {
-        description: '如果值为文本，则返回 TRUE',
-        abstract: '如果值为文本，则返回 TRUE',
+        description: `Returns TRUE if the value is text`,
+        abstract: `Returns TRUE if the value is text`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/is-%E5%87%BD%E6%95%B0-0f2d7971-6019-40a0-a171-f2d869135665',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/is-functions-0f2d7971-6019-40a0-a171-f2d869135665',
             },
         ],
         functionParameter: {
@@ -240,12 +240,12 @@ export default {
         },
     },
     N: {
-        description: '返回转换为数字的值',
-        abstract: '返回转换为数字的值',
+        description: `Returns a value converted to a number`,
+        abstract: `Returns a value converted to a number`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/n-%E5%87%BD%E6%95%B0-a624cad1-3635-4208-b54a-29733d1278c9',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/n-function-a624cad1-3635-4208-b54a-29733d1278c9',
             },
         ],
         functionParameter: {
@@ -254,12 +254,12 @@ export default {
         },
     },
     NA: {
-        description: '返回错误值 #N/A',
-        abstract: '返回错误值 #N/A',
+        description: `Returns the error value #N/A`,
+        abstract: `Returns the error value #N/A`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/na-%E5%87%BD%E6%95%B0-5469c2d1-a90c-4fb5-9bbc-64bd9bb6b47c',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/na-function-5469c2d1-a90c-4fb5-9bbc-64bd9bb6b47c',
             },
         ],
         functionParameter: {
@@ -268,12 +268,12 @@ export default {
         },
     },
     SHEET: {
-        description: '返回引用工作表的工作表编号',
-        abstract: '返回引用工作表的工作表编号',
+        description: `Returns the sheet number of the referenced sheet`,
+        abstract: `Returns the sheet number of the referenced sheet`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/sheet-%E5%87%BD%E6%95%B0-44718b6f-8b87-47a1-a9d6-b701c06cff24',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/sheet-function-44718b6f-8b87-47a1-a9d6-b701c06cff24',
             },
         ],
         functionParameter: {
@@ -282,12 +282,12 @@ export default {
         },
     },
     SHEETS: {
-        description: '返回引用中的工作表数',
-        abstract: '返回引用中的工作表数',
+        description: `Returns the number of sheets in a reference`,
+        abstract: `Returns the number of sheets in a reference`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/sheets-%E5%87%BD%E6%95%B0-770515eb-e1e8-45ce-8066-b557e5e4b80b',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/sheets-function-770515eb-e1e8-45ce-8066-b557e5e4b80b',
             },
         ],
         functionParameter: {
@@ -296,12 +296,12 @@ export default {
         },
     },
     TYPE: {
-        description: '返回表示值的数据类型的数字',
-        abstract: '返回表示值的数据类型的数字',
+        description: `Returns a number indicating the data type of a value`,
+        abstract: `Returns a number indicating the data type of a value`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/type-%E5%87%BD%E6%95%B0-45b4e688-4bc3-48b3-a105-ffa892995899',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/type-function-45b4e688-4bc3-48b3-a105-ffa892995899',
             },
         ],
         functionParameter: {

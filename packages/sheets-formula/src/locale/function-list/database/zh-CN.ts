@@ -16,12 +16,12 @@
 
 export default {
     DAVERAGE: {
-        description: '返回所选数据库条目的平均值',
-        abstract: '返回所选数据库条目的平均值',
+        description: `Returns the average of selected database entries`,
+        abstract: `Returns the average of selected database entries`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/daverage-%E5%87%BD%E6%95%B0-a6a2d5ac-4b4b-48cd-a1d8-7b37834e5aee',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/daverage-function-a6a2d5ac-4b4b-48cd-a1d8-7b37834e5aee',
             },
         ],
         functionParameter: {
@@ -30,12 +30,12 @@ export default {
         },
     },
     DCOUNT: {
-        description: '计算数据库中包含数字的单元格的数量',
-        abstract: '计算数据库中包含数字的单元格的数量',
+        description: `Counts the cells that contain numbers in a database`,
+        abstract: `Counts the cells that contain numbers in a database`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/dcount-%E5%87%BD%E6%95%B0-c1fc7b93-fb0d-4d8d-97db-8d5f076eaeb1',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/dcount-function-c1fc7b93-fb0d-4d8d-97db-8d5f076eaeb1',
             },
         ],
         functionParameter: {
@@ -44,12 +44,12 @@ export default {
         },
     },
     DCOUNTA: {
-        description: '计算数据库中非空单元格的数量',
-        abstract: '计算数据库中非空单元格的数量',
+        description: `Counts nonblank cells in a database`,
+        abstract: `Counts nonblank cells in a database`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/dcounta-%E5%87%BD%E6%95%B0-00232a6d-5a66-4a01-a25b-c1653fda1244',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/dcounta-function-00232a6d-5a66-4a01-a25b-c1653fda1244',
             },
         ],
         functionParameter: {
@@ -58,12 +58,12 @@ export default {
         },
     },
     DGET: {
-        description: '从数据库提取符合指定条件的单个记录',
-        abstract: '从数据库提取符合指定条件的单个记录',
+        description: `Extracts from a database a single record that matches the specified criteria`,
+        abstract: `Extracts from a database a single record that matches the specified criteria`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/dget-%E5%87%BD%E6%95%B0-455568bf-4eef-45f7-90f0-ec250d00892e',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/dget-function-455568bf-4eef-45f7-90f0-ec250d00892e',
             },
         ],
         functionParameter: {
@@ -72,12 +72,12 @@ export default {
         },
     },
     DMAX: {
-        description: '返回所选数据库条目的最大值',
-        abstract: '返回所选数据库条目的最大值',
+        description: `Returns the maximum value from selected database entries`,
+        abstract: `Returns the maximum value from selected database entries`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/dmax-%E5%87%BD%E6%95%B0-f4e8209d-8958-4c3d-a1ee-6351665d41c2',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/dmax-function-f4e8209d-8958-4c3d-a1ee-6351665d41c2',
             },
         ],
         functionParameter: {
@@ -86,12 +86,12 @@ export default {
         },
     },
     DMIN: {
-        description: '返回所选数据库条目的最小值',
-        abstract: '返回所选数据库条目的最小值',
+        description: `Returns the minimum value from selected database entries`,
+        abstract: `Returns the minimum value from selected database entries`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/dmin-%E5%87%BD%E6%95%B0-4ae6f1d9-1f26-40f1-a783-6dc3680192a3',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/dmin-function-4ae6f1d9-1f26-40f1-a783-6dc3680192a3',
             },
         ],
         functionParameter: {
@@ -100,12 +100,12 @@ export default {
         },
     },
     DPRODUCT: {
-        description: '将数据库中符合条件的记录的特定字段中的值相乘',
-        abstract: '将数据库中符合条件的记录的特定字段中的值相乘',
+        description: `Multiplies the values in a particular field of records that match the criteria in a database`,
+        abstract: `Multiplies the values in a particular field of records that match the criteria in a database`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/dproduct-%E5%87%BD%E6%95%B0-4f96b13e-d49c-47a7-b769-22f6d017cb31',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/dproduct-function-4f96b13e-d49c-47a7-b769-22f6d017cb31',
             },
         ],
         functionParameter: {
@@ -114,12 +114,12 @@ export default {
         },
     },
     DSTDEV: {
-        description: '基于所选数据库条目的样本估算标准偏差',
-        abstract: '基于所选数据库条目的样本估算标准偏差',
+        description: `Estimates the standard deviation based on a sample of selected database entries`,
+        abstract: `Estimates the standard deviation based on a sample of selected database entries`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/dstdev-%E5%87%BD%E6%95%B0-026b8c73-616d-4b5e-b072-241871c4ab96',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/dstdev-function-026b8c73-616d-4b5e-b072-241871c4ab96',
             },
         ],
         functionParameter: {
@@ -128,12 +128,12 @@ export default {
         },
     },
     DSTDEVP: {
-        description: '基于所选数据库条目的样本总体计算标准偏差',
-        abstract: '基于所选数据库条目的样本总体计算标准偏差',
+        description: `Calculates the standard deviation based on the entire population of selected database entries`,
+        abstract: `Calculates the standard deviation based on the entire population of selected database entries`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/dstdevp-%E5%87%BD%E6%95%B0-04b78995-da03-4813-bbd9-d74fd0f5d94b',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/dstdevp-function-04b78995-da03-4813-bbd9-d74fd0f5d94b',
             },
         ],
         functionParameter: {
@@ -142,12 +142,12 @@ export default {
         },
     },
     DSUM: {
-        description: '对数据库中符合条件的记录的字段列中的数字求和',
-        abstract: '对数据库中符合条件的记录的字段列中的数字求和',
+        description: `Adds the numbers in the field column of records in the database that match the criteria`,
+        abstract: `Adds the numbers in the field column of records in the database that match the criteria`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/dsum-%E5%87%BD%E6%95%B0-53181285-0c4b-4f5a-aaa3-529a322be41b',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/dsum-function-53181285-0c4b-4f5a-aaa3-529a322be41b',
             },
         ],
         functionParameter: {
@@ -156,12 +156,12 @@ export default {
         },
     },
     DVAR: {
-        description: '基于所选数据库条目的样本估算方差',
-        abstract: '基于所选数据库条目的样本估算方差',
+        description: `Estimates variance based on a sample from selected database entries`,
+        abstract: `Estimates variance based on a sample from selected database entries`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/dvar-%E5%87%BD%E6%95%B0-d6747ca9-99c7-48bb-996e-9d7af00f3ed1',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/dvar-function-d6747ca9-99c7-48bb-996e-9d7af00f3ed1',
             },
         ],
         functionParameter: {
@@ -170,12 +170,12 @@ export default {
         },
     },
     DVARP: {
-        description: '基于所选数据库条目的样本总体计算方差',
-        abstract: '基于所选数据库条目的样本总体计算方差',
+        description: `Calculates variance based on the entire population of selected database entries`,
+        abstract: `Calculates variance based on the entire population of selected database entries`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/dvarp-%E5%87%BD%E6%95%B0-eb0ba387-9cb7-45c8-81e9-0394912502fc',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/dvarp-function-eb0ba387-9cb7-45c8-81e9-0394912502fc',
             },
         ],
         functionParameter: {

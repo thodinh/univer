@@ -16,12 +16,12 @@
 
 export default {
     BETADIST: {
-        description: '返回 beta 累积分布函数',
-        abstract: '返回 beta 累积分布函数',
+        description: `Returns the beta cumulative distribution function`,
+        abstract: `Returns the beta cumulative distribution function`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/betadist-%E5%87%BD%E6%95%B0-49f1b9a9-a5da-470f-8077-5f1730b5fd47',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/betadist-function-49f1b9a9-a5da-470f-8077-5f1730b5fd47',
             },
         ],
         functionParameter: {
@@ -30,12 +30,12 @@ export default {
         },
     },
     BETAINV: {
-        description: '返回指定 beta 分布的累积分布函数的反函数',
-        abstract: '返回指定 beta 分布的累积分布函数的反函数',
+        description: `Returns the inverse of the cumulative distribution function for a specified beta distribution`,
+        abstract: `Returns the inverse of the cumulative distribution function for a specified beta distribution`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/betainv-%E5%87%BD%E6%95%B0-8b914ade-b902-43c1-ac9c-c05c54f10d6c',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/betainv-function-8b914ade-b902-43c1-ac9c-c05c54f10d6c',
             },
         ],
         functionParameter: {
@@ -44,12 +44,12 @@ export default {
         },
     },
     BINOMDIST: {
-        description: '返回一元二项式分布的概率',
-        abstract: '返回一元二项式分布的概率',
+        description: `Returns the individual term binomial distribution probability`,
+        abstract: `Returns the individual term binomial distribution probability`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/binomdist-%E5%87%BD%E6%95%B0-506a663e-c4ca-428d-b9a8-05583d68789c',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/binomdist-function-506a663e-c4ca-428d-b9a8-05583d68789c',
             },
         ],
         functionParameter: {
@@ -58,12 +58,12 @@ export default {
         },
     },
     CHIDIST: {
-        description: '返回 χ2 分布的单尾概率',
-        abstract: '返回 χ2 分布的单尾概率',
+        description: `Returns the one-tailed probability of the chi-squared distribution`,
+        abstract: `Returns the one-tailed probability of the chi-squared distribution`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/chidist-%E5%87%BD%E6%95%B0-c90d0fbc-5b56-4f5f-ab57-34af1bf6897e',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/chidist-function-c90d0fbc-5b56-4f5f-ab57-34af1bf6897e',
             },
         ],
         functionParameter: {
@@ -72,12 +72,12 @@ export default {
         },
     },
     CHIINV: {
-        description: '返回 χ2 分布的单尾概率的反函数',
-        abstract: '返回 χ2 分布的单尾概率的反函数',
+        description: `Returns the inverse of the one-tailed probability of the chi-squared distribution`,
+        abstract: `Returns the inverse of the one-tailed probability of the chi-squared distribution`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/chiinv-%E5%87%BD%E6%95%B0-cfbea3f6-6e4f-40c9-a87f-20472e0512af',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/chiinv-function-cfbea3f6-6e4f-40c9-a87f-20472e0512af',
             },
         ],
         functionParameter: {
@@ -86,12 +86,12 @@ export default {
         },
     },
     CHITEST: {
-        description: '返回独立性检验值',
-        abstract: '返回独立性检验值',
+        description: `Returns the test for independence`,
+        abstract: `Returns the test for independence`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/chitest-%E5%87%BD%E6%95%B0-981ff871-b694-4134-848e-38ec704577ac',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/chitest-function-981ff871-b694-4134-848e-38ec704577ac',
             },
         ],
         functionParameter: {
@@ -100,12 +100,12 @@ export default {
         },
     },
     CONFIDENCE: {
-        description: '返回总体平均值的置信区间',
-        abstract: '返回总体平均值的置信区间',
+        description: `Returns the confidence interval for a population mean`,
+        abstract: `Returns the confidence interval for a population mean`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/confidence-%E5%87%BD%E6%95%B0-75ccc007-f77c-4343-bc14-673642091ad6',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/confidence-function-75ccc007-f77c-4343-bc14-673642091ad6',
             },
         ],
         functionParameter: {
@@ -114,12 +114,12 @@ export default {
         },
     },
     COVAR: {
-        description: '返回协方差（成对偏差乘积的平均值）',
-        abstract: '返回协方差（成对偏差乘积的平均值）',
+        description: `Returns covariance, the average of the products of paired deviations`,
+        abstract: `Returns covariance, the average of the products of paired deviations`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/covar-%E5%87%BD%E6%95%B0-50479552-2c03-4daf-bd71-a5ab88b2db03',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/covar-function-50479552-2c03-4daf-bd71-a5ab88b2db03',
             },
         ],
         functionParameter: {
@@ -128,12 +128,12 @@ export default {
         },
     },
     CRITBINOM: {
-        description: '返回使累积二项式分布小于或等于临界值的最小值',
-        abstract: '返回使累积二项式分布小于或等于临界值的最小值',
+        description: `Returns the smallest value for which the cumulative binomial distribution is less than or equal to a criterion value`,
+        abstract: `Returns the smallest value for which the cumulative binomial distribution is less than or equal to a criterion value`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/critbinom-%E5%87%BD%E6%95%B0-eb6b871d-796b-4d21-b69b-e4350d5f407b',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/critbinom-function-eb6b871d-796b-4d21-b69b-e4350d5f407b',
             },
         ],
         functionParameter: {
@@ -142,12 +142,12 @@ export default {
         },
     },
     EXPONDIST: {
-        description: '返回指数分布',
-        abstract: '返回指数分布',
+        description: `Returns the exponential distribution`,
+        abstract: `Returns the exponential distribution`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/expondist-%E5%87%BD%E6%95%B0-68ab45fd-cd6d-4887-9770-9357eb8ee06a',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/expondist-function-68ab45fd-cd6d-4887-9770-9357eb8ee06a',
             },
         ],
         functionParameter: {
@@ -156,12 +156,12 @@ export default {
         },
     },
     FDIST: {
-        description: '返回 F 概率分布',
-        abstract: '返回 F 概率分布',
+        description: `Returns the F probability distribution`,
+        abstract: `Returns the F probability distribution`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/fdist-%E5%87%BD%E6%95%B0-ecf76fba-b3f1-4e7d-a57e-6a5b7460b786',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/fdist-function-ecf76fba-b3f1-4e7d-a57e-6a5b7460b786',
             },
         ],
         functionParameter: {
@@ -170,12 +170,12 @@ export default {
         },
     },
     FINV: {
-        description: '返回 F 概率分布的反函数',
-        abstract: '返回 F 概率分布的反函数',
+        description: `Returns the inverse of the F probability distribution`,
+        abstract: `Returns the inverse of the F probability distribution`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/finv-%E5%87%BD%E6%95%B0-4d46c97c-c368-4852-bc15-41e8e31140b1',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/finv-function-4d46c97c-c368-4852-bc15-41e8e31140b1',
             },
         ],
         functionParameter: {
@@ -184,12 +184,12 @@ export default {
         },
     },
     FTEST: {
-        description: '返回 F 检验的结果',
-        abstract: '返回 F 检验的结果',
+        description: `Returns the result of an F-test`,
+        abstract: `Returns the result of an F-test`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/ftest-%E5%87%BD%E6%95%B0-4c9e1202-53fe-428c-a737-976f6fc3f9fd',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/ftest-function-4c9e1202-53fe-428c-a737-976f6fc3f9fd',
             },
         ],
         functionParameter: {
@@ -198,12 +198,12 @@ export default {
         },
     },
     GAMMADIST: {
-        description: '返回 γ 分布',
-        abstract: '返回 γ 分布',
+        description: `Returns the gamma distribution`,
+        abstract: `Returns the gamma distribution`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/gammadist-%E5%87%BD%E6%95%B0-7327c94d-0f05-4511-83df-1dd7ed23e19e',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/gammadist-function-7327c94d-0f05-4511-83df-1dd7ed23e19e',
             },
         ],
         functionParameter: {
@@ -212,12 +212,12 @@ export default {
         },
     },
     GAMMAINV: {
-        description: '返回 γ 累积分布函数的反函数',
-        abstract: '返回 γ 累积分布函数的反函数',
+        description: `Returns the inverse of the gamma cumulative distribution`,
+        abstract: `Returns the inverse of the gamma cumulative distribution`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/gammainv-%E5%87%BD%E6%95%B0-06393558-37ab-47d0-aa63-432f99e7916d',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/gammainv-function-06393558-37ab-47d0-aa63-432f99e7916d',
             },
         ],
         functionParameter: {
@@ -226,12 +226,12 @@ export default {
         },
     },
     HYPGEOMDIST: {
-        description: '返回超几何分布',
-        abstract: '返回超几何分布',
+        description: `Returns the hypergeometric distribution`,
+        abstract: `Returns the hypergeometric distribution`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/hypgeomdist-%E5%87%BD%E6%95%B0-23e37961-2871-4195-9629-d0b2c108a12e',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/hypgeomdist-function-23e37961-2871-4195-9629-d0b2c108a12e',
             },
         ],
         functionParameter: {
@@ -240,12 +240,12 @@ export default {
         },
     },
     LOGINV: {
-        description: '返回对数累积分布函数的反函数',
-        abstract: '返回对数累积分布函数的反函数',
+        description: `Returns the inverse of the lognormal cumulative distribution function`,
+        abstract: `Returns the inverse of the lognormal cumulative distribution function`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/loginv-%E5%87%BD%E6%95%B0-0bd7631a-2725-482b-afb4-de23df77acfe',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/loginv-function-0bd7631a-2725-482b-afb4-de23df77acfe',
             },
         ],
         functionParameter: {
@@ -254,12 +254,12 @@ export default {
         },
     },
     LOGNORMDIST: {
-        description: '返回对数累积分布函数',
-        abstract: '返回对数累积分布函数',
+        description: `Returns the cumulative lognormal distribution`,
+        abstract: `Returns the cumulative lognormal distribution`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/lognormdist-%E5%87%BD%E6%95%B0-f8d194cb-9ee3-4034-8c75-1bdb3884100b',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/lognormdist-function-f8d194cb-9ee3-4034-8c75-1bdb3884100b',
             },
         ],
         functionParameter: {
@@ -268,12 +268,12 @@ export default {
         },
     },
     MODE: {
-        description: '返回在数据集内出现次数最多的值',
-        abstract: '返回在数据集内出现次数最多的值',
+        description: `Returns the most common value in a data set`,
+        abstract: `Returns the most common value in a data set`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/mode-%E5%87%BD%E6%95%B0-e45192ce-9122-4980-82ed-4bdc34973120',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/mode-function-e45192ce-9122-4980-82ed-4bdc34973120',
             },
         ],
         functionParameter: {
@@ -282,12 +282,12 @@ export default {
         },
     },
     NEGBINOMDIST: {
-        description: '返回负二项式分布',
-        abstract: '返回负二项式分布',
+        description: `Returns the negative binomial distribution`,
+        abstract: `Returns the negative binomial distribution`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/negbinomdist-%E5%87%BD%E6%95%B0-f59b0a37-bae2-408d-b115-a315609ba714',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/negbinomdist-function-f59b0a37-bae2-408d-b115-a315609ba714',
             },
         ],
         functionParameter: {
@@ -296,12 +296,12 @@ export default {
         },
     },
     NORMDIST: {
-        description: '返回正态累积分布',
-        abstract: '返回正态累积分布',
+        description: `Returns the normal cumulative distribution`,
+        abstract: `Returns the normal cumulative distribution`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/normdist-%E5%87%BD%E6%95%B0-126db625-c53e-4591-9a22-c9ff422d6d58',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/normdist-function-126db625-c53e-4591-9a22-c9ff422d6d58',
             },
         ],
         functionParameter: {
@@ -310,12 +310,12 @@ export default {
         },
     },
     NORMINV: {
-        description: '返回正态累积分布的反函数',
-        abstract: '返回正态累积分布的反函数',
+        description: `Returns the inverse of the normal cumulative distribution`,
+        abstract: `Returns the inverse of the normal cumulative distribution`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/norminv-%E5%87%BD%E6%95%B0-87981ab8-2de0-4cb0-b1aa-e21d4cb879b8',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/norminv-function-87981ab8-2de0-4cb0-b1aa-e21d4cb879b8',
             },
         ],
         functionParameter: {
@@ -324,12 +324,12 @@ export default {
         },
     },
     NORMSDIST: {
-        description: '返回标准正态累积分布',
-        abstract: '返回标准正态累积分布',
+        description: `Returns the standard normal cumulative distribution`,
+        abstract: `Returns the standard normal cumulative distribution`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/normsdist-%E5%87%BD%E6%95%B0-463369ea-0345-445d-802a-4ff0d6ce7cac',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/normsdist-function-463369ea-0345-445d-802a-4ff0d6ce7cac',
             },
         ],
         functionParameter: {
@@ -338,12 +338,12 @@ export default {
         },
     },
     NORMSINV: {
-        description: '返回标准正态累积分布函数的反函数',
-        abstract: '返回标准正态累积分布函数的反函数',
+        description: `Returns the inverse of the standard normal cumulative distribution`,
+        abstract: `Returns the inverse of the standard normal cumulative distribution`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/normsinv-%E5%87%BD%E6%95%B0-8d1bce66-8e4d-4f3b-967c-30eed61f019d',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/normsinv-function-8d1bce66-8e4d-4f3b-967c-30eed61f019d',
             },
         ],
         functionParameter: {
@@ -352,12 +352,12 @@ export default {
         },
     },
     PERCENTILE: {
-        description: '返回区域中数值的第 k 个百分点的值',
-        abstract: '返回区域中数值的第 k 个百分点的值',
+        description: `Returns the k-th percentile of values in a range`,
+        abstract: `Returns the k-th percentile of values in a range`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/percentile-%E5%87%BD%E6%95%B0-91b43a53-543c-4708-93de-d626debdddca',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/percentile-function-91b43a53-543c-4708-93de-d626debdddca',
             },
         ],
         functionParameter: {
@@ -366,12 +366,12 @@ export default {
         },
     },
     PERCENTRANK: {
-        description: '返回数据集中值的百分比排位',
-        abstract: '返回数据集中值的百分比排位',
+        description: `Returns the percentage rank of a value in a data set`,
+        abstract: `Returns the percentage rank of a value in a data set`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/percentrank-%E5%87%BD%E6%95%B0-f1b5836c-9619-4847-9fc9-080ec9024442',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/percentrank-function-f1b5836c-9619-4847-9fc9-080ec9024442',
             },
         ],
         functionParameter: {
@@ -380,12 +380,12 @@ export default {
         },
     },
     POISSON: {
-        description: '返回泊松分布',
-        abstract: '返回泊松分布',
+        description: `Returns the Poisson distribution`,
+        abstract: `Returns the Poisson distribution`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/poisson-%E5%87%BD%E6%95%B0-d81f7294-9d7c-4f75-bc23-80aa8624173a',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/poisson-function-d81f7294-9d7c-4f75-bc23-80aa8624173a',
             },
         ],
         functionParameter: {
@@ -394,12 +394,12 @@ export default {
         },
     },
     QUARTILE: {
-        description: '返回一组数据的四分位点',
-        abstract: '返回一组数据的四分位点',
+        description: `Returns the quartile of a data set`,
+        abstract: `Returns the quartile of a data set`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/quartile-%E5%87%BD%E6%95%B0-93cf8f62-60cd-4fdb-8a92-8451041e1a2a',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/quartile-function-93cf8f62-60cd-4fdb-8a92-8451041e1a2a',
             },
         ],
         functionParameter: {
@@ -408,12 +408,12 @@ export default {
         },
     },
     RANK: {
-        description: '返回一列数字的数字排位',
-        abstract: '返回一列数字的数字排位',
+        description: `Returns the rank of a number in a list of numbers`,
+        abstract: `Returns the rank of a number in a list of numbers`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/rank-%E5%87%BD%E6%95%B0-6a2fc49d-1831-4a03-9d8c-c279cf99f723',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/rank-function-6a2fc49d-1831-4a03-9d8c-c279cf99f723',
             },
         ],
         functionParameter: {
@@ -422,12 +422,12 @@ export default {
         },
     },
     STDEV: {
-        description: '基于样本估算标准偏差',
-        abstract: '基于样本估算标准偏差',
+        description: `Estimates standard deviation based on a sample`,
+        abstract: `Estimates standard deviation based on a sample`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/stdev-%E5%87%BD%E6%95%B0-51fecaaa-231e-4bbb-9230-33650a72c9b0',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/stdev-function-51fecaaa-231e-4bbb-9230-33650a72c9b0',
             },
         ],
         functionParameter: {
@@ -436,12 +436,12 @@ export default {
         },
     },
     STDEVP: {
-        description: '基于整个样本总体计算标准偏差',
-        abstract: '基于整个样本总体计算标准偏差',
+        description: `Calculates standard deviation based on the entire population`,
+        abstract: `Calculates standard deviation based on the entire population`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/stdevp-%E5%87%BD%E6%95%B0-1f7c1c88-1bec-4422-8242-e9f7dc8bb195',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/stdevp-function-1f7c1c88-1bec-4422-8242-e9f7dc8bb195',
             },
         ],
         functionParameter: {
@@ -450,12 +450,12 @@ export default {
         },
     },
     TDIST: {
-        description: '返回学生 t-分布',
-        abstract: '返回学生 t-分布',
+        description: `Returns the Student's t-distribution`,
+        abstract: `Returns the Student's t-distribution`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/tdist-%E5%87%BD%E6%95%B0-630a7695-4021-4853-9468-4a1f9dcdd192',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/tdist-function-630a7695-4021-4853-9468-4a1f9dcdd192',
             },
         ],
         functionParameter: {
@@ -464,12 +464,12 @@ export default {
         },
     },
     TINV: {
-        description: '返回学生 t-分布的反函数',
-        abstract: '返回学生 t-分布的反函数',
+        description: `Returns the inverse of the Student's t-distribution`,
+        abstract: `Returns the inverse of the Student's t-distribution`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/tinv-%E5%87%BD%E6%95%B0-a7c85b9d-90f5-41fe-9ca5-1cd2f3e1ed7c',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/tinv-function-a7c85b9d-90f5-41fe-9ca5-1cd2f3e1ed7c',
             },
         ],
         functionParameter: {
@@ -478,12 +478,12 @@ export default {
         },
     },
     TTEST: {
-        description: '返回与学生 t-检验相关的概率',
-        abstract: '返回与学生 t-检验相关的概率',
+        description: `Returns the probability associated with a Student's t-test`,
+        abstract: `Returns the probability associated with a Student's t-test`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/ttest-%E5%87%BD%E6%95%B0-1696ffc1-4811-40fd-9d13-a0eaad83c7ae',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/ttest-function-1696ffc1-4811-40fd-9d13-a0eaad83c7ae',
             },
         ],
         functionParameter: {
@@ -492,12 +492,12 @@ export default {
         },
     },
     VAR: {
-        description: '基于样本估算方差',
-        abstract: '基于样本估算方差',
+        description: `Estimates variance based on a sample`,
+        abstract: `Estimates variance based on a sample`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/var-%E5%87%BD%E6%95%B0-1f2b7ab2-954d-4e17-ba2c-9e58b15a7da2',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/var-function-1f2b7ab2-954d-4e17-ba2c-9e58b15a7da2',
             },
         ],
         functionParameter: {
@@ -506,12 +506,12 @@ export default {
         },
     },
     VARP: {
-        description: '计算基于样本总体的方差',
-        abstract: '计算基于样本总体的方差',
+        description: `Calculates variance based on the entire population`,
+        abstract: `Calculates variance based on the entire population`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/varp-%E5%87%BD%E6%95%B0-26a541c4-ecee-464d-a731-bd4c575b1a6b',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/varp-function-26a541c4-ecee-464d-a731-bd4c575b1a6b',
             },
         ],
         functionParameter: {
@@ -520,12 +520,12 @@ export default {
         },
     },
     WEIBULL: {
-        description: '返回 Weibull 分布',
-        abstract: '返回 Weibull 分布',
+        description: `Returns the Weibull distribution`,
+        abstract: `Returns the Weibull distribution`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/weibull-%E5%87%BD%E6%95%B0-b83dc2c6-260b-4754-bef2-633196f6fdcc',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/weibull-function-b83dc2c6-260b-4754-bef2-633196f6fdcc',
             },
         ],
         functionParameter: {
@@ -534,12 +534,12 @@ export default {
         },
     },
     ZTEST: {
-        description: '返回 z 检验的单尾概率值',
-        abstract: '返回 z 检验的单尾概率值',
+        description: `Returns the one-tailed probability-value of a z-test`,
+        abstract: `Returns the one-tailed probability-value of a z-test`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/ztest-%E5%87%BD%E6%95%B0-8f33be8a-6bd6-4ecc-8e3a-d9a4420c4a6a',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/ztest-function-8f33be8a-6bd6-4ecc-8e3a-d9a4420c4a6a',
             },
         ],
         functionParameter: {

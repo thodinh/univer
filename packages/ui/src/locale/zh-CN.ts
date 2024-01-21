@@ -16,23 +16,23 @@
 
 export default {
     uiToolbar: {
-        start: '开始',
-        insert: '插入',
-        formulas: '公式',
-        data: '数据',
-        view: '视图',
-        others: '其他',
+        start: 'Start',
+        insert: 'Insert',
+        formulas: 'Formulas',
+        data: 'Data',
+        view: 'View',
+        others: 'Others',
     },
     'shortcut-panel': {
-        title: '快捷键面板',
+        title: 'Shortcuts',
     },
     shortcut: {
-        undo: '撤销',
-        redo: '重做',
-        cut: '剪切',
-        copy: '复制',
-        paste: '粘贴',
+        undo: 'Undo',
+        redo: 'Redo',
+        cut: 'Cut',
+        copy: 'Copy',
+        paste: 'Paste',
     },
-    'common-edit': '常用编辑',
-    'toggle-shortcut-panel': '打开收起快捷键面板',
+    'common-edit': 'Common Editing Shortcuts',
+    'toggle-shortcut-panel': 'Toggle Shortcut Panel',
 };

@@ -16,12 +16,12 @@
 
 export default {
     ACCRINT: {
-        description: '返回定期支付利息的债券的应计利息',
-        abstract: '返回定期支付利息的债券的应计利息',
+        description: `Returns the accrued interest for a security that pays periodic interest`,
+        abstract: `Returns the accrued interest for a security that pays periodic interest`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/accrint-%E5%87%BD%E6%95%B0-fe45d089-6722-4fb3-9379-e1f911d8dc74',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/accrint-function-fe45d089-6722-4fb3-9379-e1f911d8dc74',
             },
         ],
         functionParameter: {
@@ -30,12 +30,12 @@ export default {
         },
     },
     ACCRINTM: {
-        description: '返回在到期日支付利息的债券的应计利息',
-        abstract: '返回在到期日支付利息的债券的应计利息',
+        description: `Returns the accrued interest for a security that pays interest at maturity`,
+        abstract: `Returns the accrued interest for a security that pays interest at maturity`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/accrintm-%E5%87%BD%E6%95%B0-f62f01f9-5754-4cc4-805b-0e70199328a7',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/accrintm-function-f62f01f9-5754-4cc4-805b-0e70199328a7',
             },
         ],
         functionParameter: {
@@ -44,12 +44,12 @@ export default {
         },
     },
     AMORDEGRC: {
-        description: '使用折旧系数返回每个记帐期的折旧值',
-        abstract: '使用折旧系数返回每个记帐期的折旧值',
+        description: `Returns the depreciation for each accounting period by using a depreciation coefficient`,
+        abstract: `Returns the depreciation for each accounting period by using a depreciation coefficient`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/amordegrc-%E5%87%BD%E6%95%B0-a14d0ca1-64a4-42eb-9b3d-b0dededf9e51',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/amordegrc-function-a14d0ca1-64a4-42eb-9b3d-b0dededf9e51',
             },
         ],
         functionParameter: {
@@ -58,12 +58,12 @@ export default {
         },
     },
     AMORLINC: {
-        description: '返回每个记帐期的折旧值',
-        abstract: '返回每个记帐期的折旧值',
+        description: `Returns the depreciation for each accounting period`,
+        abstract: `Returns the depreciation for each accounting period`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/amorlinc-%E5%87%BD%E6%95%B0-7d417b45-f7f5-4dba-a0a5-3451a81079a8',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/amorlinc-function-7d417b45-f7f5-4dba-a0a5-3451a81079a8',
             },
         ],
         functionParameter: {
@@ -72,12 +72,12 @@ export default {
         },
     },
     COUPDAYBS: {
-        description: '返回从票息期开始到结算日之间的天数',
-        abstract: '返回从票息期开始到结算日之间的天数',
+        description: `Returns the number of days from the beginning of the coupon period to the settlement date`,
+        abstract: `Returns the number of days from the beginning of the coupon period to the settlement date`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/coupdaybs-%E5%87%BD%E6%95%B0-eb9a8dfb-2fb2-4c61-8e5d-690b320cf872',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/coupdaybs-function-eb9a8dfb-2fb2-4c61-8e5d-690b320cf872',
             },
         ],
         functionParameter: {
@@ -86,12 +86,12 @@ export default {
         },
     },
     COUPDAYS: {
-        description: '返回包含结算日的票息期天数',
-        abstract: '返回包含结算日的票息期天数',
+        description: `Returns the number of days in the coupon period that contains the settlement date`,
+        abstract: `Returns the number of days in the coupon period that contains the settlement date`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/coupdays-%E5%87%BD%E6%95%B0-cc64380b-315b-4e7b-950c-b30b0a76f671',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/coupdays-function-cc64380b-315b-4e7b-950c-b30b0a76f671',
             },
         ],
         functionParameter: {
@@ -100,12 +100,12 @@ export default {
         },
     },
     COUPDAYSNC: {
-        description: '返回从结算日到下一票息支付日之间的天数',
-        abstract: '返回从结算日到下一票息支付日之间的天数',
+        description: `Returns the number of days from the settlement date to the next coupon date`,
+        abstract: `Returns the number of days from the settlement date to the next coupon date`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/coupdaysnc-%E5%87%BD%E6%95%B0-5ab3f0b2-029f-4a8b-bb65-47d525eea547',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/coupdaysnc-function-5ab3f0b2-029f-4a8b-bb65-47d525eea547',
             },
         ],
         functionParameter: {
@@ -114,12 +114,12 @@ export default {
         },
     },
     COUPNCD: {
-        description: '返回结算日之后的下一个票息支付日',
-        abstract: '返回结算日之后的下一个票息支付日',
+        description: `Returns the next coupon date after the settlement date`,
+        abstract: `Returns the next coupon date after the settlement date`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/coupncd-%E5%87%BD%E6%95%B0-fd962fef-506b-4d9d-8590-16df5393691f',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/coupncd-function-fd962fef-506b-4d9d-8590-16df5393691f',
             },
         ],
         functionParameter: {
@@ -128,12 +128,12 @@ export default {
         },
     },
     COUPNUM: {
-        description: '返回结算日与到期日之间可支付的票息数',
-        abstract: '返回结算日与到期日之间可支付的票息数',
+        description: `Returns the number of coupons payable between the settlement date and maturity date`,
+        abstract: `Returns the number of coupons payable between the settlement date and maturity date`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/coupnum-%E5%87%BD%E6%95%B0-a90af57b-de53-4969-9c99-dd6139db2522',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/coupnum-function-a90af57b-de53-4969-9c99-dd6139db2522',
             },
         ],
         functionParameter: {
@@ -142,12 +142,12 @@ export default {
         },
     },
     COUPPCD: {
-        description: '返回结算日之前的上一票息支付日',
-        abstract: '返回结算日之前的上一票息支付日',
+        description: `Returns the previous coupon date before the settlement date`,
+        abstract: `Returns the previous coupon date before the settlement date`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/couppcd-%E5%87%BD%E6%95%B0-2eb50473-6ee9-4052-a206-77a9a385d5b3',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/couppcd-function-2eb50473-6ee9-4052-a206-77a9a385d5b3',
             },
         ],
         functionParameter: {
@@ -156,12 +156,12 @@ export default {
         },
     },
     CUMIPMT: {
-        description: '返回两个付款期之间累积支付的利息',
-        abstract: '返回两个付款期之间累积支付的利息',
+        description: `Returns the cumulative interest paid between two periods`,
+        abstract: `Returns the cumulative interest paid between two periods`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/cumipmt-%E5%87%BD%E6%95%B0-61067bb0-9016-427d-b95b-1a752af0e606',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/cumipmt-function-61067bb0-9016-427d-b95b-1a752af0e606',
             },
         ],
         functionParameter: {
@@ -170,12 +170,12 @@ export default {
         },
     },
     CUMPRINC: {
-        description: '返回两个付款期之间为贷款累积支付的本金',
-        abstract: '返回两个付款期之间为贷款累积支付的本金',
+        description: `Returns the cumulative principal paid on a loan between two periods`,
+        abstract: `Returns the cumulative principal paid on a loan between two periods`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/cumprinc-%E5%87%BD%E6%95%B0-94a4516d-bd65-41a1-bc16-053a6af4c04d',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/cumprinc-function-94a4516d-bd65-41a1-bc16-053a6af4c04d',
             },
         ],
         functionParameter: {
@@ -184,12 +184,12 @@ export default {
         },
     },
     DB: {
-        description: '使用固定余额递减法，返回一笔资产在给定期间内的折旧值',
-        abstract: '使用固定余额递减法，返回一笔资产在给定期间内的折旧值',
+        description: `Returns the depreciation of an asset for a specified period by using the fixed-declining balance method`,
+        abstract: `Returns the depreciation of an asset for a specified period by using the fixed-declining balance method`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/db-%E5%87%BD%E6%95%B0-354e7d28-5f93-4ff1-8a52-eb4ee549d9d7',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/db-function-354e7d28-5f93-4ff1-8a52-eb4ee549d9d7',
             },
         ],
         functionParameter: {
@@ -198,12 +198,12 @@ export default {
         },
     },
     DDB: {
-        description: '使用双倍余额递减法或其他指定方法，返回一笔资产在给定期间内的折旧值',
-        abstract: '使用双倍余额递减法或其他指定方法，返回一笔资产在给定期间内的折旧值',
+        description: `Returns the depreciation of an asset for a specified period by using the double-declining balance method or some other method that you specify`,
+        abstract: `Returns the depreciation of an asset for a specified period by using the double-declining balance method or some other method that you specify`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/ddb-%E5%87%BD%E6%95%B0-519a7a37-8772-4c96-85c0-ed2c209717a5',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/ddb-function-519a7a37-8772-4c96-85c0-ed2c209717a5',
             },
         ],
         functionParameter: {
@@ -212,12 +212,12 @@ export default {
         },
     },
     DISC: {
-        description: '返回债券的贴现率',
-        abstract: '返回债券的贴现率',
+        description: `Returns the discount rate for a security`,
+        abstract: `Returns the discount rate for a security`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/disc-%E5%87%BD%E6%95%B0-71fce9f3-3f05-4acf-a5a3-eac6ef4daa53',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/disc-function-71fce9f3-3f05-4acf-a5a3-eac6ef4daa53',
             },
         ],
         functionParameter: {
@@ -226,12 +226,12 @@ export default {
         },
     },
     DOLLARDE: {
-        description: '将以分数表示的价格转换为以小数表示的价格',
-        abstract: '将以分数表示的价格转换为以小数表示的价格',
+        description: `Converts a dollar price, expressed as a fraction, into a dollar price, expressed as a decimal number`,
+        abstract: `Converts a dollar price, expressed as a fraction, into a dollar price, expressed as a decimal number`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/dollarde-%E5%87%BD%E6%95%B0-db85aab0-1677-428a-9dfd-a38476693427',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/dollarde-function-db85aab0-1677-428a-9dfd-a38476693427',
             },
         ],
         functionParameter: {
@@ -240,12 +240,12 @@ export default {
         },
     },
     DOLLARFR: {
-        description: '将以小数表示的价格转换为以分数表示的价格',
-        abstract: '将以小数表示的价格转换为以分数表示的价格',
+        description: `Converts a dollar price, expressed as a decimal number, into a dollar price, expressed as a fraction`,
+        abstract: `Converts a dollar price, expressed as a decimal number, into a dollar price, expressed as a fraction`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/dollarfr-%E5%87%BD%E6%95%B0-0835d163-3023-4a33-9824-3042c5d4f495',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/dollarfr-function-0835d163-3023-4a33-9824-3042c5d4f495',
             },
         ],
         functionParameter: {
@@ -254,12 +254,12 @@ export default {
         },
     },
     DURATION: {
-        description: '返回定期支付利息的债券的每年期限',
-        abstract: '返回定期支付利息的债券的每年期限',
+        description: `Returns the annual duration of a security with periodic interest payments`,
+        abstract: `Returns the annual duration of a security with periodic interest payments`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/duration-%E5%87%BD%E6%95%B0-b254ea57-eadc-4602-a86a-c8e369334038',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/duration-function-b254ea57-eadc-4602-a86a-c8e369334038',
             },
         ],
         functionParameter: {
@@ -268,12 +268,12 @@ export default {
         },
     },
     EFFECT: {
-        description: '返回年有效利率',
-        abstract: '返回年有效利率',
+        description: `Returns the effective annual interest rate`,
+        abstract: `Returns the effective annual interest rate`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/effect-%E5%87%BD%E6%95%B0-910d4e4c-79e2-4009-95e6-507e04f11bc4',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/effect-function-910d4e4c-79e2-4009-95e6-507e04f11bc4',
             },
         ],
         functionParameter: {
@@ -282,12 +282,12 @@ export default {
         },
     },
     FV: {
-        description: '返回一笔投资的未来值',
-        abstract: '返回一笔投资的未来值',
+        description: `Returns the future value of an investment`,
+        abstract: `Returns the future value of an investment`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/fv-%E5%87%BD%E6%95%B0-2eef9f44-a084-4c61-bdd8-4fe4bb1b71b3',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/fv-function-2eef9f44-a084-4c61-bdd8-4fe4bb1b71b3',
             },
         ],
         functionParameter: {
@@ -296,12 +296,12 @@ export default {
         },
     },
     FVSCHEDULE: {
-        description: '返回应用一系列复利率计算的初始本金的未来值',
-        abstract: '返回应用一系列复利率计算的初始本金的未来值',
+        description: `Returns the future value of an initial principal after applying a series of compound interest rates`,
+        abstract: `Returns the future value of an initial principal after applying a series of compound interest rates`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/fvschedule-%E5%87%BD%E6%95%B0-bec29522-bd87-4082-bab9-a241f3fb251d',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/fvschedule-function-bec29522-bd87-4082-bab9-a241f3fb251d',
             },
         ],
         functionParameter: {
@@ -310,12 +310,12 @@ export default {
         },
     },
     INTRATE: {
-        description: '返回完全投资型债券的利率',
-        abstract: '返回完全投资型债券的利率',
+        description: `Returns the interest rate for a fully invested security`,
+        abstract: `Returns the interest rate for a fully invested security`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/intrate-%E5%87%BD%E6%95%B0-5cb34dde-a221-4cb6-b3eb-0b9e55e1316f',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/intrate-function-5cb34dde-a221-4cb6-b3eb-0b9e55e1316f',
             },
         ],
         functionParameter: {
@@ -324,12 +324,12 @@ export default {
         },
     },
     IPMT: {
-        description: '返回一笔投资在给定期间内支付的利息',
-        abstract: '返回一笔投资在给定期间内支付的利息',
+        description: `Returns the interest payment for an investment for a given period`,
+        abstract: `Returns the interest payment for an investment for a given period`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/ipmt-%E5%87%BD%E6%95%B0-5cce0ad6-8402-4a41-8d29-61a0b054cb6f',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/ipmt-function-5cce0ad6-8402-4a41-8d29-61a0b054cb6f',
             },
         ],
         functionParameter: {
@@ -338,12 +338,12 @@ export default {
         },
     },
     IRR: {
-        description: '返回一系列现金流的内部收益率',
-        abstract: '返回一系列现金流的内部收益率',
+        description: `Returns the internal rate of return for a series of cash flows`,
+        abstract: `Returns the internal rate of return for a series of cash flows`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/irr-%E5%87%BD%E6%95%B0-64925eaa-9988-495b-b290-3ad0c163c1bc',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/irr-function-64925eaa-9988-495b-b290-3ad0c163c1bc',
             },
         ],
         functionParameter: {
@@ -352,12 +352,12 @@ export default {
         },
     },
     ISPMT: {
-        description: '计算特定投资期内要支付的利息',
-        abstract: '计算特定投资期内要支付的利息',
+        description: `Calculates the interest paid during a specific period of an investment`,
+        abstract: `Calculates the interest paid during a specific period of an investment`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/ispmt-%E5%87%BD%E6%95%B0-fa58adb6-9d39-4ce0-8f43-75399cea56cc',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/ispmt-function-fa58adb6-9d39-4ce0-8f43-75399cea56cc',
             },
         ],
         functionParameter: {
@@ -366,12 +366,12 @@ export default {
         },
     },
     MDURATION: {
-        description: '返回假设面值为 ￥100 的有价证券的 Macauley 修正期限',
-        abstract: '返回假设面值为 ￥100 的有价证券的 Macauley 修正期限',
+        description: `Returns the Macauley modified duration for a security with an assumed par value of $100`,
+        abstract: `Returns the Macauley modified duration for a security with an assumed par value of $100`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/mduration-%E5%87%BD%E6%95%B0-b3786a69-4f20-469a-94ad-33e5b90a763c',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/mduration-function-b3786a69-4f20-469a-94ad-33e5b90a763c',
             },
         ],
         functionParameter: {
@@ -380,12 +380,12 @@ export default {
         },
     },
     MIRR: {
-        description: '返回正和负现金流以不同利率进行计算的内部收益率',
-        abstract: '返回正和负现金流以不同利率进行计算的内部收益率',
+        description: `Returns the internal rate of return where positive and negative cash flows are financed at different rates`,
+        abstract: `Returns the internal rate of return where positive and negative cash flows are financed at different rates`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/mirr-%E5%87%BD%E6%95%B0-b020f038-7492-4fb4-93c1-35c345b53524',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/mirr-function-b020f038-7492-4fb4-93c1-35c345b53524',
             },
         ],
         functionParameter: {
@@ -394,12 +394,12 @@ export default {
         },
     },
     NOMINAL: {
-        description: '返回年度的名义利率',
-        abstract: '返回年度的名义利率',
+        description: `Returns the annual nominal interest rate`,
+        abstract: `Returns the annual nominal interest rate`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/nominal-%E5%87%BD%E6%95%B0-7f1ae29b-6b92-435e-b950-ad8b190ddd2b',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/nominal-function-7f1ae29b-6b92-435e-b950-ad8b190ddd2b',
             },
         ],
         functionParameter: {
@@ -408,12 +408,12 @@ export default {
         },
     },
     NPER: {
-        description: '返回投资的期数',
-        abstract: '返回投资的期数',
+        description: `Returns the number of periods for an investment`,
+        abstract: `Returns the number of periods for an investment`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/nper-%E5%87%BD%E6%95%B0-240535b5-6653-4d2d-bfcf-b6a38151d815',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/nper-function-240535b5-6653-4d2d-bfcf-b6a38151d815',
             },
         ],
         functionParameter: {
@@ -422,12 +422,12 @@ export default {
         },
     },
     NPV: {
-        description: '返回基于一系列定期的现金流和贴现率计算的投资的净现值',
-        abstract: '返回基于一系列定期的现金流和贴现率计算的投资的净现值',
+        description: `Returns the net present value of an investment based on a series of periodic cash flows and a discount rate`,
+        abstract: `Returns the net present value of an investment based on a series of periodic cash flows and a discount rate`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/npv-%E5%87%BD%E6%95%B0-8672cb67-2576-4d07-b67b-ac28acf2a568',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/npv-function-8672cb67-2576-4d07-b67b-ac28acf2a568',
             },
         ],
         functionParameter: {
@@ -436,12 +436,12 @@ export default {
         },
     },
     ODDFPRICE: {
-        description: '返回每张票面为 ￥100 且第一期为奇数的债券的现价',
-        abstract: '返回每张票面为 ￥100 且第一期为奇数的债券的现价',
+        description: `Returns the price per $100 face value of a security with an odd first period`,
+        abstract: `Returns the price per $100 face value of a security with an odd first period`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/oddfprice-%E5%87%BD%E6%95%B0-d7d664a8-34df-4233-8d2b-922bcf6a69e1',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/oddfprice-function-d7d664a8-34df-4233-8d2b-922bcf6a69e1',
             },
         ],
         functionParameter: {
@@ -450,12 +450,12 @@ export default {
         },
     },
     ODDFYIELD: {
-        description: '返回第一期为奇数的债券的收益',
-        abstract: '返回第一期为奇数的债券的收益',
+        description: `Returns the yield of a security with an odd first period`,
+        abstract: `Returns the yield of a security with an odd first period`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/oddfyield-%E5%87%BD%E6%95%B0-66bc8b7b-6501-4c93-9ce3-2fd16220fe37',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/oddfyield-function-66bc8b7b-6501-4c93-9ce3-2fd16220fe37',
             },
         ],
         functionParameter: {
@@ -464,12 +464,12 @@ export default {
         },
     },
     ODDLPRICE: {
-        description: '返回每张票面为 ￥100 且最后一期为奇数的债券的现价',
-        abstract: '返回每张票面为 ￥100 且最后一期为奇数的债券的现价',
+        description: `Returns the price per $100 face value of a security with an odd last period`,
+        abstract: `Returns the price per $100 face value of a security with an odd last period`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/oddlprice-%E5%87%BD%E6%95%B0-fb657749-d200-4902-afaf-ed5445027fc4',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/oddlprice-function-fb657749-d200-4902-afaf-ed5445027fc4',
             },
         ],
         functionParameter: {
@@ -478,12 +478,12 @@ export default {
         },
     },
     ODDLYIELD: {
-        description: '返回最后一期为奇数的债券的收益',
-        abstract: '返回最后一期为奇数的债券的收益',
+        description: `Returns the yield of a security with an odd last period`,
+        abstract: `Returns the yield of a security with an odd last period`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/oddlyield-%E5%87%BD%E6%95%B0-c873d088-cf40-435f-8d41-c8232fee9238',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/oddlyield-function-c873d088-cf40-435f-8d41-c8232fee9238',
             },
         ],
         functionParameter: {
@@ -492,12 +492,12 @@ export default {
         },
     },
     PDURATION: {
-        description: '返回投资到达指定值所需的期数',
-        abstract: '返回投资到达指定值所需的期数',
+        description: `Returns the number of periods required by an investment to reach a specified value`,
+        abstract: `Returns the number of periods required by an investment to reach a specified value`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/pduration-%E5%87%BD%E6%95%B0-44f33460-5be5-4c90-b857-22308892adaf',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/pduration-function-44f33460-5be5-4c90-b857-22308892adaf',
             },
         ],
         functionParameter: {
@@ -506,12 +506,12 @@ export default {
         },
     },
     PMT: {
-        description: '返回年金的定期支付金额',
-        abstract: '返回年金的定期支付金额',
+        description: `Returns the periodic payment for an annuity`,
+        abstract: `Returns the periodic payment for an annuity`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/pmt-%E5%87%BD%E6%95%B0-0214da64-9a63-4996-bc20-214433fa6441',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/pmt-function-0214da64-9a63-4996-bc20-214433fa6441',
             },
         ],
         functionParameter: {
@@ -520,12 +520,12 @@ export default {
         },
     },
     PPMT: {
-        description: '返回一笔投资在给定期间内偿还的本金',
-        abstract: '返回一笔投资在给定期间内偿还的本金',
+        description: `Returns the payment on the principal for an investment for a given period`,
+        abstract: `Returns the payment on the principal for an investment for a given period`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/ppmt-%E5%87%BD%E6%95%B0-c370d9e3-7749-4ca4-beea-b06c6ac95e1b',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/ppmt-function-c370d9e3-7749-4ca4-beea-b06c6ac95e1b',
             },
         ],
         functionParameter: {
@@ -534,12 +534,12 @@ export default {
         },
     },
     PRICE: {
-        description: '返回每张票面为 ￥100 且定期支付利息的债券的现价',
-        abstract: '返回每张票面为 ￥100 且定期支付利息的债券的现价',
+        description: `Returns the price per $100 face value of a security that pays periodic interest`,
+        abstract: `Returns the price per $100 face value of a security that pays periodic interest`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/price-%E5%87%BD%E6%95%B0-3ea9deac-8dfa-436f-a7c8-17ea02c21b0a',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/price-function-3ea9deac-8dfa-436f-a7c8-17ea02c21b0a',
             },
         ],
         functionParameter: {
@@ -548,12 +548,12 @@ export default {
         },
     },
     PRICEDISC: {
-        description: '返回每张票面为 ￥100 的已贴现债券的现价',
-        abstract: '返回每张票面为 ￥100 的已贴现债券的现价',
+        description: `Returns the price per $100 face value of a discounted security`,
+        abstract: `Returns the price per $100 face value of a discounted security`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/pricedisc-%E5%87%BD%E6%95%B0-d06ad7c1-380e-4be7-9fd9-75e3079acfd3',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/pricedisc-function-d06ad7c1-380e-4be7-9fd9-75e3079acfd3',
             },
         ],
         functionParameter: {
@@ -562,12 +562,12 @@ export default {
         },
     },
     PRICEMAT: {
-        description: '返回每张票面为 ￥100 且在到期日支付利息的债券的现价',
-        abstract: '返回每张票面为 ￥100 且在到期日支付利息的债券的现价',
+        description: `Returns the price per $100 face value of a security that pays interest at maturity`,
+        abstract: `Returns the price per $100 face value of a security that pays interest at maturity`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/pricemat-%E5%87%BD%E6%95%B0-52c3b4da-bc7e-476a-989f-a95f675cae77',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/pricemat-function-52c3b4da-bc7e-476a-989f-a95f675cae77',
             },
         ],
         functionParameter: {
@@ -576,12 +576,12 @@ export default {
         },
     },
     PV: {
-        description: '返回投资的现值',
-        abstract: '返回投资的现值',
+        description: `Returns the present value of an investment`,
+        abstract: `Returns the present value of an investment`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/pv-%E5%87%BD%E6%95%B0-23879d31-0e02-4321-be01-da16e8168cbd',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/pv-function-23879d31-0e02-4321-be01-da16e8168cbd',
             },
         ],
         functionParameter: {
@@ -590,12 +590,12 @@ export default {
         },
     },
     RATE: {
-        description: '返回年金的各期利率',
-        abstract: '返回年金的各期利率',
+        description: `Returns the interest rate per period of an annuity`,
+        abstract: `Returns the interest rate per period of an annuity`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/rate-%E5%87%BD%E6%95%B0-9f665657-4a7e-4bb7-a030-83fc59e748ce',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/rate-function-9f665657-4a7e-4bb7-a030-83fc59e748ce',
             },
         ],
         functionParameter: {
@@ -604,12 +604,12 @@ export default {
         },
     },
     RECEIVED: {
-        description: '返回完全投资型债券在到期日收回的金额',
-        abstract: '返回完全投资型债券在到期日收回的金额',
+        description: `Returns the amount received at maturity for a fully invested security`,
+        abstract: `Returns the amount received at maturity for a fully invested security`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/received-%E5%87%BD%E6%95%B0-7a3f8b93-6611-4f81-8576-828312c9b5e5',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/received-function-7a3f8b93-6611-4f81-8576-828312c9b5e5',
             },
         ],
         functionParameter: {
@@ -618,12 +618,12 @@ export default {
         },
     },
     RRI: {
-        description: '返回某项投资增长的等效利率',
-        abstract: '返回某项投资增长的等效利率',
+        description: `Returns an equivalent interest rate for the growth of an investment`,
+        abstract: `Returns an equivalent interest rate for the growth of an investment`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/rri-%E5%87%BD%E6%95%B0-6f5822d8-7ef1-4233-944c-79e8172930f4',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/rri-function-6f5822d8-7ef1-4233-944c-79e8172930f4',
             },
         ],
         functionParameter: {
@@ -632,12 +632,12 @@ export default {
         },
     },
     SLN: {
-        description: '返回固定资产的每期线性折旧费',
-        abstract: '返回固定资产的每期线性折旧费',
+        description: `Returns the straight-line depreciation of an asset for one period`,
+        abstract: `Returns the straight-line depreciation of an asset for one period`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/sln-%E5%87%BD%E6%95%B0-cdb666e5-c1c6-40a7-806a-e695edc2f1c8',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/sln-function-cdb666e5-c1c6-40a7-806a-e695edc2f1c8',
             },
         ],
         functionParameter: {
@@ -646,12 +646,12 @@ export default {
         },
     },
     SYD: {
-        description: '返回某项固定资产按年限总和折旧法计算的每期折旧金额',
-        abstract: '返回某项固定资产按年限总和折旧法计算的每期折旧金额',
+        description: `Returns the sum-of-years' digits depreciation of an asset for a specified period`,
+        abstract: `Returns the sum-of-years' digits depreciation of an asset for a specified period`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/syd-%E5%87%BD%E6%95%B0-069f8106-b60b-4ca2-98e0-2a0f206bdb27',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/syd-function-069f8106-b60b-4ca2-98e0-2a0f206bdb27',
             },
         ],
         functionParameter: {
@@ -660,12 +660,12 @@ export default {
         },
     },
     TBILLEQ: {
-        description: '返回国库券的等价债券收益',
-        abstract: '返回国库券的等价债券收益',
+        description: `Returns the bond-equivalent yield for a Treasury bill`,
+        abstract: `Returns the bond-equivalent yield for a Treasury bill`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/tbilleq-%E5%87%BD%E6%95%B0-2ab72d90-9b4d-4efe-9fc2-0f81f2c19c8c',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/tbilleq-function-2ab72d90-9b4d-4efe-9fc2-0f81f2c19c8c',
             },
         ],
         functionParameter: {
@@ -674,12 +674,12 @@ export default {
         },
     },
     TBILLPRICE: {
-        description: '返回面值 ￥100 的国库券的价格',
-        abstract: '返回面值 ￥100 的国库券的价格',
+        description: `Returns the price per $100 face value for a Treasury bill`,
+        abstract: `Returns the price per $100 face value for a Treasury bill`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/tbillprice-%E5%87%BD%E6%95%B0-eacca992-c29d-425a-9eb8-0513fe6035a2',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/tbillprice-function-eacca992-c29d-425a-9eb8-0513fe6035a2',
             },
         ],
         functionParameter: {
@@ -688,12 +688,12 @@ export default {
         },
     },
     TBILLYIELD: {
-        description: '返回国库券的收益率',
-        abstract: '返回国库券的收益率',
+        description: `Returns the yield for a Treasury bill`,
+        abstract: `Returns the yield for a Treasury bill`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/tbillyield-%E5%87%BD%E6%95%B0-6d381232-f4b0-4cd5-8e97-45b9c03468ba',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/tbillyield-function-6d381232-f4b0-4cd5-8e97-45b9c03468ba',
             },
         ],
         functionParameter: {
@@ -702,12 +702,12 @@ export default {
         },
     },
     VDB: {
-        description: '使用余额递减法，返回一笔资产在给定期间或部分期间内的折旧值',
-        abstract: '使用余额递减法，返回一笔资产在给定期间或部分期间内的折旧值',
+        description: `Returns the depreciation of an asset for a specified or partial period by using a declining balance method`,
+        abstract: `Returns the depreciation of an asset for a specified or partial period by using a declining balance method`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/vdb-%E5%87%BD%E6%95%B0-dde4e207-f3fa-488d-91d2-66d55e861d73',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/vdb-function-dde4e207-f3fa-488d-91d2-66d55e861d73',
             },
         ],
         functionParameter: {
@@ -716,12 +716,12 @@ export default {
         },
     },
     XIRR: {
-        description: '返回一组现金流的内部收益率，这些现金流不一定定期发生',
-        abstract: '返回一组现金流的内部收益率，这些现金流不一定定期发生',
+        description: `Returns the internal rate of return for a schedule of cash flows that is not necessarily periodic`,
+        abstract: `Returns the internal rate of return for a schedule of cash flows that is not necessarily periodic`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/xirr-%E5%87%BD%E6%95%B0-de1242ec-6477-445b-b11b-a303ad9adc9d',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/xirr-function-de1242ec-6477-445b-b11b-a303ad9adc9d',
             },
         ],
         functionParameter: {
@@ -730,12 +730,12 @@ export default {
         },
     },
     XNPV: {
-        description: '返回一组现金流的净现值，这些现金流不一定定期发生',
-        abstract: '返回一组现金流的净现值，这些现金流不一定定期发生',
+        description: `Returns the net present value for a schedule of cash flows that is not necessarily periodic`,
+        abstract: `Returns the net present value for a schedule of cash flows that is not necessarily periodic`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/xnpv-%E5%87%BD%E6%95%B0-1b42bbf6-370f-4532-a0eb-d67c16b664b7',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/xnpv-function-1b42bbf6-370f-4532-a0eb-d67c16b664b7',
             },
         ],
         functionParameter: {
@@ -744,12 +744,12 @@ export default {
         },
     },
     YIELD: {
-        description: '返回定期支付利息的债券的收益',
-        abstract: '返回定期支付利息的债券的收益',
+        description: `Returns the yield on a security that pays periodic interest`,
+        abstract: `Returns the yield on a security that pays periodic interest`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/yield-%E5%87%BD%E6%95%B0-f5f5ca43-c4bd-434f-8bd2-ed3c9727a4fe',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/yield-function-f5f5ca43-c4bd-434f-8bd2-ed3c9727a4fe',
             },
         ],
         functionParameter: {
@@ -758,12 +758,12 @@ export default {
         },
     },
     YIELDDISC: {
-        description: '返回已贴现债券的年收益；例如，短期国库券',
-        abstract: '返回已贴现债券的年收益；例如，短期国库券',
+        description: `Returns the annual yield for a discounted security; for example, a Treasury bill`,
+        abstract: `Returns the annual yield for a discounted security; for example, a Treasury bill`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/yielddisc-%E5%87%BD%E6%95%B0-a9dbdbae-7dae-46de-b995-615faffaaed7',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/yielddisc-function-a9dbdbae-7dae-46de-b995-615faffaaed7',
             },
         ],
         functionParameter: {
@@ -772,12 +772,12 @@ export default {
         },
     },
     YIELDMAT: {
-        description: '返回在到期日支付利息的债券的年收益',
-        abstract: '返回在到期日支付利息的债券的年收益',
+        description: `Returns the annual yield of a security that pays interest at maturity`,
+        abstract: `Returns the annual yield of a security that pays interest at maturity`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/yieldmat-%E5%87%BD%E6%95%B0-ba7d1809-0d33-4bcb-96c7-6c56ec62ef6f',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/yieldmat-function-ba7d1809-0d33-4bcb-96c7-6c56ec62ef6f',
             },
         ],
         functionParameter: {

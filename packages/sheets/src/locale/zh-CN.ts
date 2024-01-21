@@ -16,7 +16,7 @@
 
 export default {
     sheets: {
-        sheetCopy: '（副本）',
-        sheet: '工作表',
+        sheetCopy: '(Copy)',
+        sheet: 'Sheet',
     },
 };
