@@ -16,14 +16,12 @@
 
 export default {
     CUBEKPIMEMBER: {
-        description:
-            '返回重要性能指示器 (KPI) 属性，并在单元格中显示 KPI 名称。 KPI 是一种用于监控单位绩效的可计量度量值，如每月总利润或季度员工调整。',
-        abstract:
-            '返回重要性能指示器 (KPI) 属性，并在单元格中显示 KPI 名称。 KPI 是一种用于监控单位绩效的可计量度量值，如每月总利润或季度员工调整。',
+        description: `Returns a key performance indicator (KPI) property and displays the KPI name in the cell. A KPI is a quantifiable measurement, such as monthly gross profit or quarterly employee turnover, that is used to monitor an organization's performance.`,
+        abstract: `Returns a key performance indicator (KPI) property and displays the KPI name in the cell. A KPI is a quantifiable measurement, such as monthly gross profit or quarterly employee turnover, that is used to monitor an organization's performance.`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/cubekpimember-%E5%87%BD%E6%95%B0-744608bf-2c62-42cd-b67a-a56109f4b03b',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/cubekpimember-function-744608bf-2c62-42cd-b67a-a56109f4b03b',
             },
         ],
         functionParameter: {
@@ -32,12 +30,12 @@ export default {
         },
     },
     CUBEMEMBER: {
-        description: '返回多维数据集中的成员或元组。 用于验证多维数据集内是否存在成员或元组。',
-        abstract: '返回多维数据集中的成员或元组。 用于验证多维数据集内是否存在成员或元组。',
+        description: `Returns a member or tuple from the cube. Use to validate that the member or tuple exists in the cube.`,
+        abstract: `Returns a member or tuple from the cube. Use to validate that the member or tuple exists in the cube.`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/cubemember-%E5%87%BD%E6%95%B0-0f6a15b9-2c18-4819-ae89-e1b5c8b398ad',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/cubemember-function-0f6a15b9-2c18-4819-ae89-e1b5c8b398ad',
             },
         ],
         functionParameter: {
@@ -46,12 +44,12 @@ export default {
         },
     },
     CUBEMEMBERPROPERTY: {
-        description: '返回多维数据集中成员属性的值。 用于验证多维数据集内是否存在某个成员名并返回此成员的指定属性。',
-        abstract: '返回多维数据集中成员属性的值。 用于验证多维数据集内是否存在某个成员名并返回此成员的指定属性。',
+        description: `Returns the value of a member property from the cube. Use to validate that a member name exists within the cube and to return the specified property for this member.`,
+        abstract: `Returns the value of a member property from the cube. Use to validate that a member name exists within the cube and to return the specified property for this member.`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/cubememberproperty-%E5%87%BD%E6%95%B0-001e57d6-b35a-49e5-abcd-05ff599e8951',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/cubememberproperty-function-001e57d6-b35a-49e5-abcd-05ff599e8951',
             },
         ],
         functionParameter: {
@@ -60,14 +58,12 @@ export default {
         },
     },
     CUBERANKEDMEMBER: {
-        description:
-            '返回集合中的第 n 个或排在一定名次的成员。 用来返回集合中的一个或多个元素，如业绩最好的销售人员或前 10 名的学生。',
-        abstract:
-            '返回集合中的第 n 个或排在一定名次的成员。 用来返回集合中的一个或多个元素，如业绩最好的销售人员或前 10 名的学生。',
+        description: `Returns the nth, or ranked, member in a set. Use to return one or more elements in a set, such as the top sales performer or the top 10 students.`,
+        abstract: `Returns the nth, or ranked, member in a set. Use to return one or more elements in a set, such as the top sales performer or the top 10 students.`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/cuberankedmember-%E5%87%BD%E6%95%B0-07efecde-e669-4075-b4bf-6b40df2dc4b3',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/cuberankedmember-function-07efecde-e669-4075-b4bf-6b40df2dc4b3',
             },
         ],
         functionParameter: {
@@ -76,14 +72,12 @@ export default {
         },
     },
     CUBESET: {
-        description:
-            '定义成员或元组的计算集。方法是向服务器上的多维数据集发送一个集合表达式，此表达式创建集合，并随后将该集合返回到 Microsoft Excel。',
-        abstract:
-            '定义成员或元组的计算集。方法是向服务器上的多维数据集发送一个集合表达式，此表达式创建集合，并随后将该集合返回到 Microsoft Excel。',
+        description: `Defines a calculated set of members or tuples by sending a set expression to the cube on the server, which creates the set, and then returns that set to Microsoft Excel.`,
+        abstract: `Defines a calculated set of members or tuples by sending a set expression to the cube on the server, which creates the set, and then returns that set to Microsoft Excel.`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/cubeset-%E5%87%BD%E6%95%B0-5b2146bd-62d6-4d04-9d8f-670e993ee1d9',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/cubeset-function-5b2146bd-62d6-4d04-9d8f-670e993ee1d9',
             },
         ],
         functionParameter: {
@@ -92,12 +86,12 @@ export default {
         },
     },
     CUBESETCOUNT: {
-        description: '返回集合中的项目数。',
-        abstract: '返回集合中的项目数。',
+        description: `Returns the number of items in a set.`,
+        abstract: `Returns the number of items in a set.`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/cubesetcount-%E5%87%BD%E6%95%B0-c4c2a438-c1ff-4061-80fe-982f2d705286',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/cubesetcount-function-c4c2a438-c1ff-4061-80fe-982f2d705286',
             },
         ],
         functionParameter: {
@@ -106,12 +100,12 @@ export default {
         },
     },
     CUBEVALUE: {
-        description: '从多维数据集中返回汇总值。',
-        abstract: '从多维数据集中返回汇总值。',
+        description: `Returns an aggregated value from the cube.`,
+        abstract: `Returns an aggregated value from the cube.`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/cubevalue-%E5%87%BD%E6%95%B0-8733da24-26d1-4e34-9b3a-84a8f00dcbe0',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/cubevalue-function-8733da24-26d1-4e34-9b3a-84a8f00dcbe0',
             },
         ],
         functionParameter: {

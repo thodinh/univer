@@ -16,12 +16,12 @@
 
 export default {
     DATE: {
-        description: '返回特定日期的序列号',
-        abstract: '返回特定日期的序列号',
+        description: `Returns the serial number of a particular date`,
+        abstract: `Returns the serial number of a particular date`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/date-%E5%87%BD%E6%95%B0-e36c0c8c-4104-49da-ab83-82328b832349',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/date-function-e36c0c8c-4104-49da-ab83-82328b832349',
             },
         ],
         functionParameter: {
@@ -30,12 +30,12 @@ export default {
         },
     },
     DATEDIF: {
-        description: '计算两个日期之间的天数、月数或年数。 此函数在用于计算年龄的公式中很有用。',
-        abstract: '计算两个日期之间的天数、月数或年数。 此函数在用于计算年龄的公式中很有用。',
+        description: `Calculates the number of days, months, or years between two dates. This function is useful in formulas where you need to calculate an age.`,
+        abstract: `Calculates the number of days, months, or years between two dates. This function is useful in formulas where you need to calculate an age.`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/datedif-%E5%87%BD%E6%95%B0-25dba1a4-2812-480b-84dd-8b32a451b35c',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/datedif-function-25dba1a4-2812-480b-84dd-8b32a451b35c',
             },
         ],
         functionParameter: {
@@ -44,12 +44,12 @@ export default {
         },
     },
     DATEVALUE: {
-        description: '将文本格式的日期转换为序列号',
-        abstract: '将文本格式的日期转换为序列号',
+        description: `Converts a date in the form of text to a serial number`,
+        abstract: `Converts a date in the form of text to a serial number`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/datevalue-%E5%87%BD%E6%95%B0-df8b07d4-7761-4a93-bc33-b7471bbff252',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/datevalue-function-df8b07d4-7761-4a93-bc33-b7471bbff252',
             },
         ],
         functionParameter: {
@@ -58,12 +58,12 @@ export default {
         },
     },
     DAY: {
-        description: '将序列号转换为月份日期',
-        abstract: '将序列号转换为月份日期',
+        description: `Converts a serial number to a day of the month`,
+        abstract: `Converts a serial number to a day of the month`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/day-%E5%87%BD%E6%95%B0-8a7d1cbb-6c7d-4ba1-8aea-25c134d03101',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/day-function-8a7d1cbb-6c7d-4ba1-8aea-25c134d03101',
             },
         ],
         functionParameter: {
@@ -72,12 +72,12 @@ export default {
         },
     },
     DAYS: {
-        description: '返回两个日期之间的天数',
-        abstract: '返回两个日期之间的天数',
+        description: `Returns the number of days between two dates`,
+        abstract: `Returns the number of days between two dates`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/days-%E5%87%BD%E6%95%B0-57740535-d549-4395-8728-0f07bff0b9df',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/days-function-57740535-d549-4395-8728-0f07bff0b9df',
             },
         ],
         functionParameter: {
@@ -86,12 +86,12 @@ export default {
         },
     },
     DAYS360: {
-        description: '以一年 360 天为基准计算两个日期间的天数',
-        abstract: '以一年 360 天为基准计算两个日期间的天数',
+        description: `Calculates the number of days between two dates based on a 360-day year`,
+        abstract: `Calculates the number of days between two dates based on a 360-day year`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/days360-%E5%87%BD%E6%95%B0-b9a509fd-49ef-407e-94df-0cbda5718c2a',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/days360-function-b9a509fd-49ef-407e-94df-0cbda5718c2a',
             },
         ],
         functionParameter: {
@@ -100,12 +100,12 @@ export default {
         },
     },
     EDATE: {
-        description: '返回用于表示开始日期之前或之后月数的日期的序列号',
-        abstract: '返回用于表示开始日期之前或之后月数的日期的序列号',
+        description: `Returns the serial number of the date that is the indicated number of months before or after the start date`,
+        abstract: `Returns the serial number of the date that is the indicated number of months before or after the start date`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/edate-%E5%87%BD%E6%95%B0-3c920eb2-6e66-44e7-a1f5-753ae47ee4f5',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/edate-function-3c920eb2-6e66-44e7-a1f5-753ae47ee4f5',
             },
         ],
         functionParameter: {
@@ -114,12 +114,12 @@ export default {
         },
     },
     EOMONTH: {
-        description: '返回指定月数之前或之后的月份的最后一天的序列号',
-        abstract: '返回指定月数之前或之后的月份的最后一天的序列号',
+        description: `Returns the serial number of the last day of the month before or after a specified number of months`,
+        abstract: `Returns the serial number of the last day of the month before or after a specified number of months`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/eomonth-%E5%87%BD%E6%95%B0-7314ffa1-2bc9-4005-9d66-f49db127d628',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/eomonth-function-7314ffa1-2bc9-4005-9d66-f49db127d628',
             },
         ],
         functionParameter: {
@@ -128,12 +128,12 @@ export default {
         },
     },
     HOUR: {
-        description: '将序列号转换为小时',
-        abstract: '将序列号转换为小时',
+        description: `Converts a serial number to an hour`,
+        abstract: `Converts a serial number to an hour`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/hour-%E5%87%BD%E6%95%B0-a3afa879-86cb-4339-b1b5-2dd2d7310ac7',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/hour-function-a3afa879-86cb-4339-b1b5-2dd2d7310ac7',
             },
         ],
         functionParameter: {
@@ -142,12 +142,12 @@ export default {
         },
     },
     ISOWEEKNUM: {
-        description: '返回给定日期在全年中的 ISO 周数',
-        abstract: '返回给定日期在全年中的 ISO 周数',
+        description: `Returns the number of the ISO week number of the year for a given date`,
+        abstract: `Returns the number of the ISO week number of the year for a given date`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/isoweeknum-%E5%87%BD%E6%95%B0-1c2d0afe-d25b-4ab1-8894-8d0520e90e0e',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/isoweeknum-function-1c2d0afe-d25b-4ab1-8894-8d0520e90e0e',
             },
         ],
         functionParameter: {
@@ -156,12 +156,12 @@ export default {
         },
     },
     MINUTE: {
-        description: '将序列号转换为分钟',
-        abstract: '将序列号转换为分钟',
+        description: `Converts a serial number to a minute`,
+        abstract: `Converts a serial number to a minute`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/minute-%E5%87%BD%E6%95%B0-af728df0-05c4-4b07-9eed-a84801a60589',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/minute-function-af728df0-05c4-4b07-9eed-a84801a60589',
             },
         ],
         functionParameter: {
@@ -170,12 +170,12 @@ export default {
         },
     },
     MONTH: {
-        description: '将序列号转换为月',
-        abstract: '将序列号转换为月',
+        description: `Converts a serial number to a month`,
+        abstract: `Converts a serial number to a month`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/month-%E5%87%BD%E6%95%B0-579a2881-199b-48b2-ab90-ddba0eba86e8',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/month-function-579a2881-199b-48b2-ab90-ddba0eba86e8',
             },
         ],
         functionParameter: {
@@ -184,12 +184,12 @@ export default {
         },
     },
     NETWORKDAYS: {
-        description: '返回两个日期间的完整工作日的天数',
-        abstract: '返回两个日期间的完整工作日的天数',
+        description: `Returns the number of whole workdays between two dates`,
+        abstract: `Returns the number of whole workdays between two dates`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/networkdays-%E5%87%BD%E6%95%B0-48e717bf-a7a3-495f-969e-5005e3eb18e7',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/networkdays-function-48e717bf-a7a3-495f-969e-5005e3eb18e7',
             },
         ],
         functionParameter: {
@@ -198,12 +198,12 @@ export default {
         },
     },
     NETWORKDAYS_INTL: {
-        description: '返回两个日期之间的完整工作日的天数（使用参数指明周末有几天并指明是哪几天）',
-        abstract: '返回两个日期之间的完整工作日的天数（使用参数指明周末有几天并指明是哪几天）',
+        description: `Returns the number of whole workdays between two dates using parameters to indicate which and how many days are weekend days`,
+        abstract: `Returns the number of whole workdays between two dates using parameters to indicate which and how many days are weekend days`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/networkdays-intl-%E5%87%BD%E6%95%B0-a9b26239-4f20-46a1-9ab8-4e925bfd5e28',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/networkdays-intl-function-a9b26239-4f20-46a1-9ab8-4e925bfd5e28',
             },
         ],
         functionParameter: {
@@ -212,12 +212,12 @@ export default {
         },
     },
     NOW: {
-        description: '返回当前日期和时间的序列号',
-        abstract: '返回当前日期和时间的序列号',
+        description: `Returns the serial number of the current date and time`,
+        abstract: `Returns the serial number of the current date and time`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/now-%E5%87%BD%E6%95%B0-3337fd29-145a-4347-b2e6-20c904739c46',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/now-function-3337fd29-145a-4347-b2e6-20c904739c46',
             },
         ],
         functionParameter: {
@@ -226,12 +226,12 @@ export default {
         },
     },
     SECOND: {
-        description: '将序列号转换为秒',
-        abstract: '将序列号转换为秒',
+        description: `Converts a serial number to a second`,
+        abstract: `Converts a serial number to a second`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/second-%E5%87%BD%E6%95%B0-740d1cfc-553c-4099-b668-80eaa24e8af1',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/second-function-740d1cfc-553c-4099-b668-80eaa24e8af1',
             },
         ],
         functionParameter: {
@@ -240,12 +240,12 @@ export default {
         },
     },
     TIME: {
-        description: '返回特定时间的序列号',
-        abstract: '返回特定时间的序列号',
+        description: `Returns the serial number of a particular time`,
+        abstract: `Returns the serial number of a particular time`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/time-%E5%87%BD%E6%95%B0-9a5aff99-8f7d-4611-845e-747d0b8d5457',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/time-function-9a5aff99-8f7d-4611-845e-747d0b8d5457',
             },
         ],
         functionParameter: {
@@ -254,12 +254,12 @@ export default {
         },
     },
     TIMEVALUE: {
-        description: '将文本格式的时间转换为序列号',
-        abstract: '将文本格式的时间转换为序列号',
+        description: `Converts a time in the form of text to a serial number`,
+        abstract: `Converts a time in the form of text to a serial number`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/timevalue-%E5%87%BD%E6%95%B0-0b615c12-33d8-4431-bf3d-f3eb6d186645',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/timevalue-function-0b615c12-33d8-4431-bf3d-f3eb6d186645',
             },
         ],
         functionParameter: {
@@ -268,12 +268,12 @@ export default {
         },
     },
     TODAY: {
-        description: '返回今天日期的序列号',
-        abstract: '返回今天日期的序列号',
+        description: `Returns the serial number of today's date`,
+        abstract: `Returns the serial number of today's date`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/today-%E5%87%BD%E6%95%B0-5eb3078d-a82c-4736-8930-2f51a028fdd9',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/today-function-5eb3078d-a82c-4736-8930-2f51a028fdd9',
             },
         ],
         functionParameter: {
@@ -282,12 +282,12 @@ export default {
         },
     },
     WEEKDAY: {
-        description: '将序列号转换为星期日期',
-        abstract: '将序列号转换为星期日期',
+        description: `Converts a serial number to a day of the week`,
+        abstract: `Converts a serial number to a day of the week`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/weekday-%E5%87%BD%E6%95%B0-60e44483-2ed1-439f-8bd0-e404c190949a',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/weekday-function-60e44483-2ed1-439f-8bd0-e404c190949a',
             },
         ],
         functionParameter: {
@@ -296,12 +296,12 @@ export default {
         },
     },
     WEEKNUM: {
-        description: '将序列号转换为代表该星期为一年中第几周的数字',
-        abstract: '将序列号转换为代表该星期为一年中第几周的数字',
+        description: `Converts a serial number to a number representing where the week falls numerically with a year`,
+        abstract: `Converts a serial number to a number representing where the week falls numerically with a year`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/weeknum-%E5%87%BD%E6%95%B0-e5c43a03-b4ab-426c-b411-b18c13c75340',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/weeknum-function-e5c43a03-b4ab-426c-b411-b18c13c75340',
             },
         ],
         functionParameter: {
@@ -310,12 +310,12 @@ export default {
         },
     },
     WORKDAY: {
-        description: '返回指定的若干个工作日之前或之后的日期的序列号',
-        abstract: '返回指定的若干个工作日之前或之后的日期的序列号',
+        description: `Returns the serial number of the date before or after a specified number of workdays`,
+        abstract: `Returns the serial number of the date before or after a specified number of workdays`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/workday-%E5%87%BD%E6%95%B0-f764a5b7-05fc-4494-9486-60d494efbf33',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/workday-function-f764a5b7-05fc-4494-9486-60d494efbf33',
             },
         ],
         functionParameter: {
@@ -324,12 +324,12 @@ export default {
         },
     },
     WORKDAY_INTL: {
-        description: '返回日期在指定的工作日天数之前或之后的序列号（使用参数指明周末有几天并指明是哪几天）',
-        abstract: '返回日期在指定的工作日天数之前或之后的序列号（使用参数指明周末有几天并指明是哪几天）',
+        description: `Returns the serial number of the date before or after a specified number of workdays using parameters to indicate which and how many days are weekend days`,
+        abstract: `Returns the serial number of the date before or after a specified number of workdays using parameters to indicate which and how many days are weekend days`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/workday-intl-%E5%87%BD%E6%95%B0-a378391c-9ba7-4678-8a39-39611a9bf81d',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/workday-intl-function-a378391c-9ba7-4678-8a39-39611a9bf81d',
             },
         ],
         functionParameter: {
@@ -338,12 +338,12 @@ export default {
         },
     },
     YEAR: {
-        description: '将序列号转换为年',
-        abstract: '将序列号转换为年',
+        description: `Converts a serial number to a year`,
+        abstract: `Converts a serial number to a year`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/year-%E5%87%BD%E6%95%B0-c64f017a-1354-490d-981f-578e8ec8d3b9',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/year-function-c64f017a-1354-490d-981f-578e8ec8d3b9',
             },
         ],
         functionParameter: {
@@ -352,12 +352,12 @@ export default {
         },
     },
     YEARFRAC: {
-        description: '返回代表 start_date 和 end_date 之间整天天数的年分数',
-        abstract: '返回代表 start_date 和 end_date 之间整天天数的年分数',
+        description: `Returns the year fraction representing the number of whole days between start_date and end_date`,
+        abstract: `Returns the year fraction representing the number of whole days between start_date and end_date`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/yearfrac-%E5%87%BD%E6%95%B0-3844141e-c76d-4143-82b6-208454ddc6a8',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/yearfrac-function-3844141e-c76d-4143-82b6-208454ddc6a8',
             },
         ],
         functionParameter: {

@@ -182,7 +182,7 @@ export function Toolbar(props: IToolbarProps) {
                     ))}
 
                     {collapsedId.length > 0 && (
-                        <Tooltip title="更多" placement="bottom">
+                        <Tooltip title="More" placement="bottom">
                             <Dropdown
                                 className={styles.toolbarMore}
                                 overlay={

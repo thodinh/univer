@@ -16,12 +16,12 @@
 
 export default {
     BESSELI: {
-        description: '返回修正的贝赛耳函数 In(x)',
-        abstract: '返回修正的贝赛耳函数 In(x)',
+        description: `Returns the modified Bessel function In(x)`,
+        abstract: `Returns the modified Bessel function In(x)`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/besseli-%E5%87%BD%E6%95%B0-8d33855c-9a8d-444b-98e0-852267b1c0df',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/besseli-function-8d33855c-9a8d-444b-98e0-852267b1c0df',
             },
         ],
         functionParameter: {
@@ -30,12 +30,12 @@ export default {
         },
     },
     BESSELJ: {
-        description: '返回贝赛耳函数 Jn(x)',
-        abstract: '返回贝赛耳函数 Jn(x)',
+        description: `Returns the Bessel function Jn(x)`,
+        abstract: `Returns the Bessel function Jn(x)`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/besselj-%E5%87%BD%E6%95%B0-839cb181-48de-408b-9d80-bd02982d94f7',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/besselj-function-839cb181-48de-408b-9d80-bd02982d94f7',
             },
         ],
         functionParameter: {
@@ -44,12 +44,12 @@ export default {
         },
     },
     BESSELK: {
-        description: '返回修正的贝赛耳函数 Kn(x)',
-        abstract: '返回修正的贝赛耳函数 Kn(x)',
+        description: `Returns the modified Bessel function Kn(x)`,
+        abstract: `Returns the modified Bessel function Kn(x)`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/besselk-%E5%87%BD%E6%95%B0-606d11bc-06d3-4d53-9ecb-2803e2b90b70',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/besselk-function-606d11bc-06d3-4d53-9ecb-2803e2b90b70',
             },
         ],
         functionParameter: {
@@ -58,12 +58,12 @@ export default {
         },
     },
     BESSELY: {
-        description: '返回贝赛耳函数 Yn(x)',
-        abstract: '返回贝赛耳函数 Yn(x)',
+        description: `Returns the Bessel function Yn(x)`,
+        abstract: `Returns the Bessel function Yn(x)`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/bessely-%E5%87%BD%E6%95%B0-f3a356b3-da89-42c3-8974-2da54d6353a2',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/bessely-function-f3a356b3-da89-42c3-8974-2da54d6353a2',
             },
         ],
         functionParameter: {
@@ -72,12 +72,12 @@ export default {
         },
     },
     BIN2DEC: {
-        description: '将二进制数转换为十进制数',
-        abstract: '将二进制数转换为十进制数',
+        description: `Converts a binary number to decimal`,
+        abstract: `Converts a binary number to decimal`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/bin2dec-%E5%87%BD%E6%95%B0-63905b57-b3a0-453d-99f4-647bb519cd6c',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/bin2dec-function-63905b57-b3a0-453d-99f4-647bb519cd6c',
             },
         ],
         functionParameter: {
@@ -86,12 +86,12 @@ export default {
         },
     },
     BIN2HEX: {
-        description: '将二进制数转换为十六进制数',
-        abstract: '将二进制数转换为十六进制数',
+        description: `Converts a binary number to hexadecimal`,
+        abstract: `Converts a binary number to hexadecimal`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/bin2hex-%E5%87%BD%E6%95%B0-0375e507-f5e5-4077-9af8-28d84f9f41cc',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/bin2hex-function-0375e507-f5e5-4077-9af8-28d84f9f41cc',
             },
         ],
         functionParameter: {
@@ -100,12 +100,12 @@ export default {
         },
     },
     BIN2OCT: {
-        description: '将二进制数转换为八进制数',
-        abstract: '将二进制数转换为八进制数',
+        description: `Converts a binary number to octal`,
+        abstract: `Converts a binary number to octal`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/bin2oct-%E5%87%BD%E6%95%B0-0a4e01ba-ac8d-4158-9b29-16c25c4c23fd',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/bin2oct-function-0a4e01ba-ac8d-4158-9b29-16c25c4c23fd',
             },
         ],
         functionParameter: {
@@ -114,12 +114,12 @@ export default {
         },
     },
     BITAND: {
-        description: '返回两个数的“按位与”',
-        abstract: '返回两个数的“按位与”',
+        description: `Returns a 'Bitwise And' of two numbers`,
+        abstract: `Returns a 'Bitwise And' of two numbers`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/bitand-%E5%87%BD%E6%95%B0-8a2be3d7-91c3-4b48-9517-64548008563a',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/bitand-function-8a2be3d7-91c3-4b48-9517-64548008563a',
             },
         ],
         functionParameter: {
@@ -128,12 +128,12 @@ export default {
         },
     },
     BITLSHIFT: {
-        description: '返回左移 shift_amount 位的计算值接收数',
-        abstract: '返回左移 shift_amount 位的计算值接收数',
+        description: `Returns a value number shifted left by shift_amount bits`,
+        abstract: `Returns a value number shifted left by shift_amount bits`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/bitlshift-%E5%87%BD%E6%95%B0-c55bb27e-cacd-4c7c-b258-d80861a03c9c',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/bitlshift-function-c55bb27e-cacd-4c7c-b258-d80861a03c9c',
             },
         ],
         functionParameter: {
@@ -142,12 +142,12 @@ export default {
         },
     },
     BITOR: {
-        description: '返回两个数的“按位或”',
-        abstract: '返回两个数的“按位或”',
+        description: `Returns a bitwise OR of 2 numbers`,
+        abstract: `Returns a bitwise OR of 2 numbers`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/bitor-%E5%87%BD%E6%95%B0-f6ead5c8-5b98-4c9e-9053-8ad5234919b2',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/bitor-function-f6ead5c8-5b98-4c9e-9053-8ad5234919b2',
             },
         ],
         functionParameter: {
@@ -156,12 +156,12 @@ export default {
         },
     },
     BITRSHIFT: {
-        description: '返回右移 shift_amount 位的计算值接收数',
-        abstract: '返回右移 shift_amount 位的计算值接收数',
+        description: `Returns a value number shifted right by shift_amount bits`,
+        abstract: `Returns a value number shifted right by shift_amount bits`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/bitrshift-%E5%87%BD%E6%95%B0-274d6996-f42c-4743-abdb-4ff95351222c',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/bitrshift-function-274d6996-f42c-4743-abdb-4ff95351222c',
             },
         ],
         functionParameter: {
@@ -170,12 +170,12 @@ export default {
         },
     },
     BITXOR: {
-        description: '返回两个数的按位“异或”',
-        abstract: '返回两个数的按位“异或”',
+        description: `Returns a bitwise 'Exclusive Or' of two numbers`,
+        abstract: `Returns a bitwise 'Exclusive Or' of two numbers`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/bitxor-%E5%87%BD%E6%95%B0-c81306a1-03f9-4e89-85ac-b86c3cba10e4',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/bitxor-function-c81306a1-03f9-4e89-85ac-b86c3cba10e4',
             },
         ],
         functionParameter: {
@@ -184,12 +184,12 @@ export default {
         },
     },
     COMPLEX: {
-        description: '将实系数和虚系数转换为复数',
-        abstract: '将实系数和虚系数转换为复数',
+        description: `Converts real and imaginary coefficients into a complex number`,
+        abstract: `Converts real and imaginary coefficients into a complex number`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/complex-%E5%87%BD%E6%95%B0-f0b8f3a9-51cc-4d6d-86fb-3a9362fa4128',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/complex-function-f0b8f3a9-51cc-4d6d-86fb-3a9362fa4128',
             },
         ],
         functionParameter: {
@@ -198,12 +198,12 @@ export default {
         },
     },
     CONVERT: {
-        description: '将数字从一种度量系统转换为另一种度量系统',
-        abstract: '将数字从一种度量系统转换为另一种度量系统',
+        description: `Converts a number from one measurement system to another`,
+        abstract: `Converts a number from one measurement system to another`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/convert-%E5%87%BD%E6%95%B0-d785bef1-808e-4aac-bdcd-666c810f9af2',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/convert-function-d785bef1-808e-4aac-bdcd-666c810f9af2',
             },
         ],
         functionParameter: {
@@ -212,12 +212,12 @@ export default {
         },
     },
     DEC2BIN: {
-        description: '将十进制数转换为二进制数',
-        abstract: '将十进制数转换为二进制数',
+        description: `Converts a decimal number to binary`,
+        abstract: `Converts a decimal number to binary`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/dec2bin-%E5%87%BD%E6%95%B0-0f63dd0e-5d1a-42d8-b511-5bf5c6d43838',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/dec2bin-function-0f63dd0e-5d1a-42d8-b511-5bf5c6d43838',
             },
         ],
         functionParameter: {
@@ -226,12 +226,12 @@ export default {
         },
     },
     DEC2HEX: {
-        description: '将十进制数转换为十六进制数',
-        abstract: '将十进制数转换为十六进制数',
+        description: `Converts a decimal number to hexadecimal`,
+        abstract: `Converts a decimal number to hexadecimal`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/dec2hex-%E5%87%BD%E6%95%B0-6344ee8b-b6b5-4c6a-a672-f64666704619',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/dec2hex-function-6344ee8b-b6b5-4c6a-a672-f64666704619',
             },
         ],
         functionParameter: {
@@ -240,12 +240,12 @@ export default {
         },
     },
     DEC2OCT: {
-        description: '将十进制数转换为八进制数',
-        abstract: '将十进制数转换为八进制数',
+        description: `Converts a decimal number to octal`,
+        abstract: `Converts a decimal number to octal`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/dec2oct-%E5%87%BD%E6%95%B0-c9d835ca-20b7-40c4-8a9e-d3be351ce00f',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/dec2oct-function-c9d835ca-20b7-40c4-8a9e-d3be351ce00f',
             },
         ],
         functionParameter: {
@@ -254,12 +254,12 @@ export default {
         },
     },
     DELTA: {
-        description: '检验两个值是否相等',
-        abstract: '检验两个值是否相等',
+        description: `Tests whether two values are equal`,
+        abstract: `Tests whether two values are equal`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/delta-%E5%87%BD%E6%95%B0-2f763672-c959-4e07-ac33-fe03220ba432',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/delta-function-2f763672-c959-4e07-ac33-fe03220ba432',
             },
         ],
         functionParameter: {
@@ -268,12 +268,12 @@ export default {
         },
     },
     ERF: {
-        description: '返回误差函数',
-        abstract: '返回误差函数',
+        description: `Returns the error function`,
+        abstract: `Returns the error function`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/erf-%E5%87%BD%E6%95%B0-c53c7e7b-5482-4b6c-883e-56df3c9af349',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/erf-function-c53c7e7b-5482-4b6c-883e-56df3c9af349',
             },
         ],
         functionParameter: {
@@ -282,12 +282,12 @@ export default {
         },
     },
     ERF_PRECISE: {
-        description: '返回误差函数',
-        abstract: '返回误差函数',
+        description: `Returns the error function`,
+        abstract: `Returns the error function`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/erf-precise-%E5%87%BD%E6%95%B0-9a349593-705c-4278-9a98-e4122831a8e0',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/erf-precise-function-9a349593-705c-4278-9a98-e4122831a8e0',
             },
         ],
         functionParameter: {
@@ -296,12 +296,12 @@ export default {
         },
     },
     ERFC: {
-        description: '返回互补误差函数',
-        abstract: '返回互补误差函数',
+        description: `Returns the complementary error function`,
+        abstract: `Returns the complementary error function`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/erfc-%E5%87%BD%E6%95%B0-736e0318-70ba-4e8b-8d08-461fe68b71b3',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/erfc-function-736e0318-70ba-4e8b-8d08-461fe68b71b3',
             },
         ],
         functionParameter: {
@@ -310,12 +310,12 @@ export default {
         },
     },
     ERFC_PRECISE: {
-        description: '返回从 x 到无穷大积分的互补 ERF 函数',
-        abstract: '返回从 x 到无穷大积分的互补 ERF 函数',
+        description: `Returns the complementary ERF function integrated between x and infinity`,
+        abstract: `Returns the complementary ERF function integrated between x and infinity`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/erfc-precise-%E5%87%BD%E6%95%B0-e90e6bab-f45e-45df-b2ac-cd2eb4d4a273',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/erfc-precise-function-e90e6bab-f45e-45df-b2ac-cd2eb4d4a273',
             },
         ],
         functionParameter: {
@@ -324,12 +324,12 @@ export default {
         },
     },
     GESTEP: {
-        description: '检验数字是否大于阈值',
-        abstract: '检验数字是否大于阈值',
+        description: `Tests whether a number is greater than a threshold value`,
+        abstract: `Tests whether a number is greater than a threshold value`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/gestep-%E5%87%BD%E6%95%B0-f37e7d2a-41da-4129-be95-640883fca9df',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/gestep-function-f37e7d2a-41da-4129-be95-640883fca9df',
             },
         ],
         functionParameter: {
@@ -338,12 +338,12 @@ export default {
         },
     },
     HEX2BIN: {
-        description: '将十六进制数转换为二进制数',
-        abstract: '将十六进制数转换为二进制数',
+        description: `Converts a hexadecimal number to binary`,
+        abstract: `Converts a hexadecimal number to binary`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/hex2bin-%E5%87%BD%E6%95%B0-a13aafaa-5737-4920-8424-643e581828c1',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/hex2bin-function-a13aafaa-5737-4920-8424-643e581828c1',
             },
         ],
         functionParameter: {
@@ -352,12 +352,12 @@ export default {
         },
     },
     HEX2DEC: {
-        description: '将十六进制数转换为十进制数',
-        abstract: '将十六进制数转换为十进制数',
+        description: `Converts a hexadecimal number to decimal`,
+        abstract: `Converts a hexadecimal number to decimal`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/hex2dec-%E5%87%BD%E6%95%B0-8c8c3155-9f37-45a5-a3ee-ee5379ef106e',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/hex2dec-function-8c8c3155-9f37-45a5-a3ee-ee5379ef106e',
             },
         ],
         functionParameter: {
@@ -366,12 +366,12 @@ export default {
         },
     },
     HEX2OCT: {
-        description: '将十六进制数转换为八进制数',
-        abstract: '将十六进制数转换为八进制数',
+        description: `Converts a hexadecimal number to octal`,
+        abstract: `Converts a hexadecimal number to octal`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/hex2oct-%E5%87%BD%E6%95%B0-54d52808-5d19-4bd0-8a63-1096a5d11912',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/hex2oct-function-54d52808-5d19-4bd0-8a63-1096a5d11912',
             },
         ],
         functionParameter: {
@@ -380,12 +380,12 @@ export default {
         },
     },
     IMABS: {
-        description: '返回复数的绝对值（模数）',
-        abstract: '返回复数的绝对值（模数）',
+        description: `Returns the absolute value (modulus) of a complex number`,
+        abstract: `Returns the absolute value (modulus) of a complex number`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/imabs-%E5%87%BD%E6%95%B0-b31e73c6-d90c-4062-90bc-8eb351d765a1',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/imabs-function-b31e73c6-d90c-4062-90bc-8eb351d765a1',
             },
         ],
         functionParameter: {
@@ -394,12 +394,12 @@ export default {
         },
     },
     IMAGINARY: {
-        description: '返回复数的虚系数',
-        abstract: '返回复数的虚系数',
+        description: `Returns the imaginary coefficient of a complex number`,
+        abstract: `Returns the imaginary coefficient of a complex number`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/imaginary-%E5%87%BD%E6%95%B0-dd5952fd-473d-44d9-95a1-9a17b23e428a',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/imaginary-function-dd5952fd-473d-44d9-95a1-9a17b23e428a',
             },
         ],
         functionParameter: {
@@ -408,12 +408,12 @@ export default {
         },
     },
     IMARGUMENT: {
-        description: '返回参数 theta，即以弧度表示的角',
-        abstract: '返回参数 theta，即以弧度表示的角',
+        description: `Returns the argument theta, an angle expressed in radians`,
+        abstract: `Returns the argument theta, an angle expressed in radians`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/imargument-%E5%87%BD%E6%95%B0-eed37ec1-23b3-4f59-b9f3-d340358a034a',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/imargument-function-eed37ec1-23b3-4f59-b9f3-d340358a034a',
             },
         ],
         functionParameter: {
@@ -422,12 +422,12 @@ export default {
         },
     },
     IMCONJUGATE: {
-        description: '返回复数的共轭复数',
-        abstract: '返回复数的共轭复数',
+        description: `Returns the complex conjugate of a complex number`,
+        abstract: `Returns the complex conjugate of a complex number`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/imconjugate-%E5%87%BD%E6%95%B0-2e2fc1ea-f32b-4f9b-9de6-233853bafd42',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/imconjugate-function-2e2fc1ea-f32b-4f9b-9de6-233853bafd42',
             },
         ],
         functionParameter: {
@@ -436,12 +436,12 @@ export default {
         },
     },
     IMCOS: {
-        description: '返回复数的余弦',
-        abstract: '返回复数的余弦',
+        description: `Returns the cosine of a complex number`,
+        abstract: `Returns the cosine of a complex number`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/imcos-%E5%87%BD%E6%95%B0-dad75277-f592-4a6b-ad6c-be93a808a53c',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/imcos-function-dad75277-f592-4a6b-ad6c-be93a808a53c',
             },
         ],
         functionParameter: {
@@ -450,12 +450,12 @@ export default {
         },
     },
     IMCOSH: {
-        description: '返回复数的双曲余弦值',
-        abstract: '返回复数的双曲余弦值',
+        description: `Returns the hyperbolic cosine of a complex number`,
+        abstract: `Returns the hyperbolic cosine of a complex number`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/imcosh-%E5%87%BD%E6%95%B0-053e4ddb-4122-458b-be9a-457c405e90ff',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/imcosh-function-053e4ddb-4122-458b-be9a-457c405e90ff',
             },
         ],
         functionParameter: {
@@ -464,12 +464,12 @@ export default {
         },
     },
     IMCOT: {
-        description: '返回复数的余弦值',
-        abstract: '返回复数的余弦值',
+        description: `Returns the cotangent of a complex number`,
+        abstract: `Returns the cotangent of a complex number`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/imcot-%E5%87%BD%E6%95%B0-dc6a3607-d26a-4d06-8b41-8931da36442c',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/imcot-function-dc6a3607-d26a-4d06-8b41-8931da36442c',
             },
         ],
         functionParameter: {
@@ -478,12 +478,12 @@ export default {
         },
     },
     IMCSC: {
-        description: '返回复数的余割值',
-        abstract: '返回复数的余割值',
+        description: `Returns the cosecant of a complex number`,
+        abstract: `Returns the cosecant of a complex number`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/imcsc-%E5%87%BD%E6%95%B0-9e158d8f-2ddf-46cd-9b1d-98e29904a323',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/imcsc-function-9e158d8f-2ddf-46cd-9b1d-98e29904a323',
             },
         ],
         functionParameter: {
@@ -492,12 +492,12 @@ export default {
         },
     },
     IMCSCH: {
-        description: '返回复数的双曲余割值',
-        abstract: '返回复数的双曲余割值',
+        description: `Returns the hyperbolic cosecant of a complex number`,
+        abstract: `Returns the hyperbolic cosecant of a complex number`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/imcsch-%E5%87%BD%E6%95%B0-c0ae4f54-5f09-4fef-8da0-dc33ea2c5ca9',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/imcsch-function-c0ae4f54-5f09-4fef-8da0-dc33ea2c5ca9',
             },
         ],
         functionParameter: {
@@ -506,12 +506,12 @@ export default {
         },
     },
     IMDIV: {
-        description: '返回两个复数的商',
-        abstract: '返回两个复数的商',
+        description: `Returns the quotient of two complex numbers`,
+        abstract: `Returns the quotient of two complex numbers`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/imdiv-%E5%87%BD%E6%95%B0-a505aff7-af8a-4451-8142-77ec3d74d83f',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/imdiv-function-a505aff7-af8a-4451-8142-77ec3d74d83f',
             },
         ],
         functionParameter: {
@@ -520,12 +520,12 @@ export default {
         },
     },
     IMEXP: {
-        description: '返回复数的指数',
-        abstract: '返回复数的指数',
+        description: `Returns the exponential of a complex number`,
+        abstract: `Returns the exponential of a complex number`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/imexp-%E5%87%BD%E6%95%B0-c6f8da1f-e024-4c0c-b802-a60e7147a95f',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/imexp-function-c6f8da1f-e024-4c0c-b802-a60e7147a95f',
             },
         ],
         functionParameter: {
@@ -534,12 +534,12 @@ export default {
         },
     },
     IMLN: {
-        description: '返回复数的自然对数',
-        abstract: '返回复数的自然对数',
+        description: `Returns the natural logarithm of a complex number`,
+        abstract: `Returns the natural logarithm of a complex number`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/imln-%E5%87%BD%E6%95%B0-32b98bcf-8b81-437c-a636-6fb3aad509d8',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/imln-function-32b98bcf-8b81-437c-a636-6fb3aad509d8',
             },
         ],
         functionParameter: {
@@ -548,12 +548,12 @@ export default {
         },
     },
     IMLOG10: {
-        description: '返回复数的以 10 为底的对数',
-        abstract: '返回复数的以 10 为底的对数',
+        description: `Returns the base-10 logarithm of a complex number`,
+        abstract: `Returns the base-10 logarithm of a complex number`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/imlog10-%E5%87%BD%E6%95%B0-58200fca-e2a2-4271-8a98-ccd4360213a5',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/imlog10-function-58200fca-e2a2-4271-8a98-ccd4360213a5',
             },
         ],
         functionParameter: {
@@ -562,12 +562,12 @@ export default {
         },
     },
     IMLOG2: {
-        description: '返回复数的以 2 为底的对数',
-        abstract: '返回复数的以 2 为底的对数',
+        description: `Returns the base-2 logarithm of a complex number`,
+        abstract: `Returns the base-2 logarithm of a complex number`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/imlog2-%E5%87%BD%E6%95%B0-152e13b4-bc79-486c-a243-e6a676878c51',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/imlog2-function-152e13b4-bc79-486c-a243-e6a676878c51',
             },
         ],
         functionParameter: {
@@ -576,12 +576,12 @@ export default {
         },
     },
     IMPOWER: {
-        description: '返回复数的整数幂',
-        abstract: '返回复数的整数幂',
+        description: `Returns a complex number raised to an integer power`,
+        abstract: `Returns a complex number raised to an integer power`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/impower-%E5%87%BD%E6%95%B0-210fd2f5-f8ff-4c6a-9d60-30e34fbdef39',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/impower-function-210fd2f5-f8ff-4c6a-9d60-30e34fbdef39',
             },
         ],
         functionParameter: {
@@ -590,12 +590,12 @@ export default {
         },
     },
     IMPRODUCT: {
-        description: '返回从 2 到 255 的复数的乘积',
-        abstract: '返回从 2 到 255 的复数的乘积',
+        description: `Returns the product of from 2 to 255 complex numbers`,
+        abstract: `Returns the product of from 2 to 255 complex numbers`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/improduct-%E5%87%BD%E6%95%B0-2fb8651a-a4f2-444f-975e-8ba7aab3a5ba',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/improduct-function-2fb8651a-a4f2-444f-975e-8ba7aab3a5ba',
             },
         ],
         functionParameter: {
@@ -604,12 +604,12 @@ export default {
         },
     },
     IMREAL: {
-        description: '返回复数的实系数',
-        abstract: '返回复数的实系数',
+        description: `Returns the real coefficient of a complex number`,
+        abstract: `Returns the real coefficient of a complex number`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/imreal-%E5%87%BD%E6%95%B0-d12bc4c0-25d0-4bb3-a25f-ece1938bf366',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/imreal-function-d12bc4c0-25d0-4bb3-a25f-ece1938bf366',
             },
         ],
         functionParameter: {
@@ -618,12 +618,12 @@ export default {
         },
     },
     IMSEC: {
-        description: '返回复数的正切值',
-        abstract: '返回复数的正切值',
+        description: `Returns the secant of a complex number`,
+        abstract: `Returns the secant of a complex number`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/imsec-%E5%87%BD%E6%95%B0-6df11132-4411-4df4-a3dc-1f17372459e0',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/imsec-function-6df11132-4411-4df4-a3dc-1f17372459e0',
             },
         ],
         functionParameter: {
@@ -632,12 +632,12 @@ export default {
         },
     },
     IMSECH: {
-        description: '返回复数的双曲正切值',
-        abstract: '返回复数的双曲正切值',
+        description: `Returns the hyperbolic secant of a complex number`,
+        abstract: `Returns the hyperbolic secant of a complex number`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/imsech-%E5%87%BD%E6%95%B0-f250304f-788b-4505-954e-eb01fa50903b',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/imsech-function-f250304f-788b-4505-954e-eb01fa50903b',
             },
         ],
         functionParameter: {
@@ -646,12 +646,12 @@ export default {
         },
     },
     IMSIN: {
-        description: '返回复数的正弦',
-        abstract: '返回复数的正弦',
+        description: `Returns the sine of a complex number`,
+        abstract: `Returns the sine of a complex number`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/imsin-%E5%87%BD%E6%95%B0-1ab02a39-a721-48de-82ef-f52bf37859f6',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/imsin-function-1ab02a39-a721-48de-82ef-f52bf37859f6',
             },
         ],
         functionParameter: {
@@ -660,12 +660,12 @@ export default {
         },
     },
     IMSINH: {
-        description: '返回复数的双曲正弦值',
-        abstract: '返回复数的双曲正弦值',
+        description: `Returns the hyperbolic sine of a complex number`,
+        abstract: `Returns the hyperbolic sine of a complex number`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/imsinh-%E5%87%BD%E6%95%B0-dfb9ec9e-8783-4985-8c42-b028e9e8da3d',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/imsinh-function-dfb9ec9e-8783-4985-8c42-b028e9e8da3d',
             },
         ],
         functionParameter: {
@@ -674,12 +674,12 @@ export default {
         },
     },
     IMSQRT: {
-        description: '返回复数的平方根',
-        abstract: '返回复数的平方根',
+        description: `Returns the square root of a complex number`,
+        abstract: `Returns the square root of a complex number`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/imsqrt-%E5%87%BD%E6%95%B0-e1753f80-ba11-4664-a10e-e17368396b70',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/imsqrt-function-e1753f80-ba11-4664-a10e-e17368396b70',
             },
         ],
         functionParameter: {
@@ -688,12 +688,12 @@ export default {
         },
     },
     IMSUB: {
-        description: '返回两个复数的差',
-        abstract: '返回两个复数的差',
+        description: `Returns the difference between two complex numbers`,
+        abstract: `Returns the difference between two complex numbers`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/imsub-%E5%87%BD%E6%95%B0-2e404b4d-4935-4e85-9f52-cb08b9a45054',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/imsub-function-2e404b4d-4935-4e85-9f52-cb08b9a45054',
             },
         ],
         functionParameter: {
@@ -702,12 +702,12 @@ export default {
         },
     },
     IMSUM: {
-        description: '返回多个复数的和',
-        abstract: '返回多个复数的和',
+        description: `Returns the sum of complex numbers`,
+        abstract: `Returns the sum of complex numbers`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/imsum-%E5%87%BD%E6%95%B0-81542999-5f1c-4da6-9ffe-f1d7aaa9457f',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/imsum-function-81542999-5f1c-4da6-9ffe-f1d7aaa9457f',
             },
         ],
         functionParameter: {
@@ -716,12 +716,12 @@ export default {
         },
     },
     IMTAN: {
-        description: '返回复数的正切值',
-        abstract: '返回复数的正切值',
+        description: `Returns the tangent of a complex number`,
+        abstract: `Returns the tangent of a complex number`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/imtan-%E5%87%BD%E6%95%B0-8478f45d-610a-43cf-8544-9fc0b553a132',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/imtan-function-8478f45d-610a-43cf-8544-9fc0b553a132',
             },
         ],
         functionParameter: {
@@ -730,12 +730,12 @@ export default {
         },
     },
     OCT2BIN: {
-        description: '将八进制数转换为二进制数',
-        abstract: '将八进制数转换为二进制数',
+        description: `Converts an octal number to binary`,
+        abstract: `Converts an octal number to binary`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/oct2bin-%E5%87%BD%E6%95%B0-55383471-3c56-4d27-9522-1a8ec646c589',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/oct2bin-function-55383471-3c56-4d27-9522-1a8ec646c589',
             },
         ],
         functionParameter: {
@@ -744,12 +744,12 @@ export default {
         },
     },
     OCT2DEC: {
-        description: '将八进制数转换为十进制数',
-        abstract: '将八进制数转换为十进制数',
+        description: `Converts an octal number to decimal`,
+        abstract: `Converts an octal number to decimal`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/oct2dec-%E5%87%BD%E6%95%B0-87606014-cb98-44b2-8dbb-e48f8ced1554',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/oct2dec-function-87606014-cb98-44b2-8dbb-e48f8ced1554',
             },
         ],
         functionParameter: {
@@ -758,12 +758,12 @@ export default {
         },
     },
     OCT2HEX: {
-        description: '将八进制数转换为十六进制数',
-        abstract: '将八进制数转换为十六进制数',
+        description: `Converts an octal number to hexadecimal`,
+        abstract: `Converts an octal number to hexadecimal`,
         links: [
             {
-                title: '教学',
-                url: 'https://support.microsoft.com/zh-cn/office/oct2hex-%E5%87%BD%E6%95%B0-912175b4-d497-41b4-a029-221f051b858f',
+                title: 'Instruction',
+                url: 'https://support.microsoft.com/en-us/office/oct2hex-function-912175b4-d497-41b4-a029-221f051b858f',
             },
         ],
         functionParameter: {

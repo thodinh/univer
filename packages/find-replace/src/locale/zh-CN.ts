@@ -20,14 +20,14 @@ const locale: typeof enUS = {
     univer: {
         'find-replace': {
             dialog: {
-                title: '查找',
-                find: '查找',
-                replace: '替换',
-                'replace-all': '替换全部',
-                'find-range': '查找范围',
-                'find-placeholder': '输入查找内容',
-                'advanced-finding': '替换 / 高级查找',
-                'replace-placeholder': '输入替换内容',
+                title: 'Find',
+                find: 'Find',
+                replace: 'Replace',
+                'replace-all': 'Replace All',
+                'find-range': 'Find Range',
+                'find-placeholder': 'Enter search content',
+                'advanced-finding': 'Replace / Advanced Find',
+                'replace-placeholder': 'Enter replacement content',
             },
         },
     },

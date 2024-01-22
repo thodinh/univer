@@ -19,11 +19,11 @@ import type { ILocale } from './interface';
 const locale: ILocale = {
     design: {
         Confirm: {
-            cancel: '取消',
-            confirm: '确定',
+            cancel: 'Cancel',
+            confirm: 'Confirm',
         },
         Slider: {
-            resetTo: '恢复至',
+            resetTo: 'Reset',
         },
     },
 };

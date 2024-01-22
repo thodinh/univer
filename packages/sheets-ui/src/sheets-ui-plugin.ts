@@ -65,11 +65,15 @@ import { ShortcutExperienceService } from './services/shortcut-experience.servic
 import { IStatusBarService, StatusBarService } from './services/status-bar.service';
 import { SheetCanvasView } from './views/sheet-canvas-view';
 
+export interface IUniverSheetsUIConfig {
+    formulaBar?: boolean;
+}
+
 export class UniverSheetsUIPlugin extends Plugin {
     static override type = PluginType.Sheet;
 
     constructor(
-        config: undefined,
+        private _config: IUniverSheetsUIConfig,
         @Inject(Injector) override readonly _injector: Injector,
         @Inject(LocaleService) private readonly _localeService: LocaleService,
         @IUniverInstanceService private readonly _currentUniverService: IUniverInstanceService
@@ -127,7 +131,12 @@ export class UniverSheetsUIPlugin extends Plugin {
                 [SheetContextMenuController],
                 [SheetNavigationController],
                 [SheetRenderController],
-                [SheetUIController],
+                [
+                    SheetUIController,
+                    {
+                        useFactory: () => this._injector.createInstance(SheetUIController, this._config),
+                    },
+                ],
                 [StartEditController],
                 [ZoomController],
                 [AutoFillController],
