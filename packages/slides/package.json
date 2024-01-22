@@ -1,6 +1,6 @@
 {
     "name": "@univerjs/slides",
-    "version": "0.1.0-beta.6",
+    "version": "0.1.0-beta.7",
     "author": "DreamNum <developer@univer.ai>",
     "license": "Apache-2.0",
     "main": "./lib/cjs/index.js",
