@@ -94,6 +94,7 @@ import {
 } from '../components/font-family';
 import { FONT_SIZE_COMPONENT, FontSize } from '../components/font-size';
 import { MENU_ITEM_INPUT_COMPONENT, MenuItemInput } from '../components/menu-item-input';
+import type { IUniverSheetsUIConfig } from '../sheets-ui-plugin';
 import { RenderSheetContent, RenderSheetFooter, RenderSheetHeader } from '../views/sheet-container/SheetContainer';
 import { CellBorderSelectorMenuItemFactory } from './menu/border.menu';
 import {
@@ -218,6 +219,7 @@ import { ResetZoomShortcutItem, ZoomInShortcutItem, ZoomOutShortcutItem } from '
 @OnLifecycle(LifecycleStages.Ready, SheetUIController)
 export class SheetUIController extends Disposable {
     constructor(
+        private _config: IUniverSheetsUIConfig,
         @Inject(Injector) private readonly _injector: Injector,
         @Inject(ComponentManager) private readonly _componentManager: ComponentManager,
         @ICommandService private readonly _commandService: ICommandService,
@@ -435,9 +437,11 @@ export class SheetUIController extends Disposable {
     }
 
     private _initWorkbenchParts(): void {
-        this.disposeWithMe(
-            this._uiController.registerHeaderComponent(() => connectInjector(RenderSheetHeader, this._injector))
-        );
+        if (this._config?.formulaBar) {
+            this.disposeWithMe(
+                this._uiController.registerHeaderComponent(() => connectInjector(RenderSheetHeader, this._injector))
+            );
+        }
 
         this.disposeWithMe(
             this._uiController.registerFooterComponent(() => connectInjector(RenderSheetFooter, this._injector))
